@@ -1,0 +1,12 @@
+#base16-xcode-dusk pre { white-space: pre-wrap; font-family: monospace; color: #939599; background-color: #282b35; }
+#base16-xcode-dusk pre { font-family: monospace; color: #939599; background-color: #282b35; }
+#base16-xcode-dusk * { font-size: 1em; }
+#base16-xcode-dusk .Special { color: #00a0be; }
+#base16-xcode-dusk .Identifier { color: #b21889; }
+#base16-xcode-dusk .Statement { color: #b21889; font-weight: bold; }
+#base16-xcode-dusk .PreProc { color: #438288; }
+#base16-xcode-dusk .Number { color: #786dc5; }
+#base16-xcode-dusk .Operator { color: #939599; }
+#base16-xcode-dusk .String { color: #df0002; }
+#base16-xcode-dusk .Comment { color: #686a71; }
+#base16-xcode-dusk .Conditional { color: #b21889; }

@@ -1,0 +1,12 @@
+#base16-solarflare-light pre { white-space: pre-wrap; font-family: monospace; color: #586875; background-color: #f5f7fa; }
+#base16-solarflare-light pre { font-family: monospace; color: #586875; background-color: #f5f7fa; }
+#base16-solarflare-light * { font-size: 1em; }
+#base16-solarflare-light .Special { color: #52cbb0; }
+#base16-solarflare-light .Identifier { color: #ef5253; }
+#base16-solarflare-light .Statement { color: #ef5253; font-weight: bold; }
+#base16-solarflare-light .PreProc { color: #e4b51c; }
+#base16-solarflare-light .Number { color: #e66b2b; }
+#base16-solarflare-light .Operator { color: #586875; }
+#base16-solarflare-light .String { color: #7cc844; }
+#base16-solarflare-light .Comment { color: #85939e; }
+#base16-solarflare-light .Conditional { color: #a363d5; }
