@@ -1,12 +1,18 @@
 <html lang="en">
   <head>
-    <title>Base16 Gallery</title>
+    <title>Base16 Gallery</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
     <% colorschemes = Dir.entries('base16-vim/colors').reject{ |f| File.directory? f }.map{ |s| s.sub(/\.vim$/, '') } %>
     <% colorschemes.each do |colorscheme| %>
       <%= File.read("out/#{colorscheme}.css") %>
     <% end %>
+    h1 {
+      font-family: Lobster, cursive.
+    }
     .content > pre {
       padding: 10px;
       height: 300px;
@@ -24,7 +30,8 @@
     <div class="container-fluid">
       <div class="row">
         <h1 class="text-center">Base16 Gallery</h1>
-        <p class="text-center">This gallery is generated from <a href="https://github.com/base16-project/base16-vim">base16-project/base16-vim</a> by TANIGUCHI Masaya.</p>
+        <p class="text-center">
+          This gallery is generated from <a href="https://github.com/base16-project/base16-vim">base16-project/base16-vim</a>.</p>
       </div>
       <div class="row" id="gallery">
       <% colorschemes.each do |colorscheme| %>
