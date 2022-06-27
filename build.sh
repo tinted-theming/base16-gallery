@@ -8,15 +8,19 @@ mkdir out
 rm -rf base16-vim
 git clone --depth=1 https://github.com/base16-project/base16-vim
 
-export COLORSCHEMES=($(ls base16-vim/colors | sed 's/\..*$//'))
+rm -rf base16-schemes
+git clone --depth=1 https://github.com/base16-project/base16-schemes
+
+export COLORSCHEMES=($(ls base16-schemes/ | grep yaml | sed 's/\..*$//'))
 
 for COLORSCHEME in ${COLORSCHEMES[@]}; do
   echo $COLORSCHEME
+
   vim -es -u NORC -N \
     -c 'set termguicolors' \
     -c 'set runtimepath+=base16-vim' \
     -c 'syntax on' \
-    -c "colorscheme $COLORSCHEME" \
+    -c "colorscheme base16-$COLORSCHEME" \
     -c 'TOhtml' \
     -c 'wqall' \
     $0 > /dev/null 2>&1
