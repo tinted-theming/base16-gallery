@@ -1,0 +1,12 @@
+#tokyo-city-light pre { white-space: pre-wrap; font-family: monospace; color: #343b59; background-color: #fbfbfd; }
+#tokyo-city-light pre { font-family: monospace; color: #343b59; background-color: #fbfbfd; }
+#tokyo-city-light * { font-size: 1em; }
+#tokyo-city-light .Special { color: #4c505e; }
+#tokyo-city-light .Identifier { color: #8c4351; }
+#tokyo-city-light .Statement { color: #8c4351; font-weight: bold; }
+#tokyo-city-light .PreProc { color: #4c505e; }
+#tokyo-city-light .Number { color: #965027; }
+#tokyo-city-light .Operator { color: #343b59; }
+#tokyo-city-light .String { color: #485e30; }
+#tokyo-city-light .Comment { color: #9699a3; }
+#tokyo-city-light .Conditional { color: #5a4a78; }

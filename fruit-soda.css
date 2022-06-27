@@ -1,0 +1,12 @@
+#fruit-soda pre { white-space: pre-wrap; font-family: monospace; color: #515151; background-color: #f1ecf1; }
+#fruit-soda pre { font-family: monospace; color: #515151; background-color: #f1ecf1; }
+#fruit-soda * { font-size: 1em; }
+#fruit-soda .Special { color: #0f9cfd; }
+#fruit-soda .Identifier { color: #fe3e31; }
+#fruit-soda .Statement { color: #fe3e31; font-weight: bold; }
+#fruit-soda .PreProc { color: #f7e203; }
+#fruit-soda .Number { color: #fe6d08; }
+#fruit-soda .Operator { color: #515151; }
+#fruit-soda .String { color: #47f74c; }
+#fruit-soda .Comment { color: #b5b4b6; }
+#fruit-soda .Conditional { color: #611fce; }

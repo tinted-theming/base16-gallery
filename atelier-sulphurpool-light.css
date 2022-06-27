@@ -1,0 +1,12 @@
+#atelier-sulphurpool-light pre { white-space: pre-wrap; font-family: monospace; color: #5e6687; background-color: #f5f7ff; }
+#atelier-sulphurpool-light pre { font-family: monospace; color: #5e6687; background-color: #f5f7ff; }
+#atelier-sulphurpool-light * { font-size: 1em; }
+#atelier-sulphurpool-light .Special { color: #22a2c9; }
+#atelier-sulphurpool-light .Identifier { color: #c94922; }
+#atelier-sulphurpool-light .Statement { color: #c94922; font-weight: bold; }
+#atelier-sulphurpool-light .PreProc { color: #c08b30; }
+#atelier-sulphurpool-light .Number { color: #c76b29; }
+#atelier-sulphurpool-light .Operator { color: #5e6687; }
+#atelier-sulphurpool-light .String { color: #ac9739; }
+#atelier-sulphurpool-light .Comment { color: #898ea4; }
+#atelier-sulphurpool-light .Conditional { color: #6679cc; }

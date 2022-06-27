@@ -1,0 +1,12 @@
+#nord pre { white-space: pre-wrap; font-family: monospace; color: #e5e9f0; background-color: #2e3440; }
+#nord pre { font-family: monospace; color: #e5e9f0; background-color: #2e3440; }
+#nord * { font-size: 1em; }
+#nord .Special { color: #88c0d0; }
+#nord .Identifier { color: #bf616a; }
+#nord .Statement { color: #bf616a; font-weight: bold; }
+#nord .PreProc { color: #ebcb8b; }
+#nord .Number { color: #d08770; }
+#nord .Operator { color: #e5e9f0; }
+#nord .String { color: #a3be8c; }
+#nord .Comment { color: #4c566a; }
+#nord .Conditional { color: #b48ead; }

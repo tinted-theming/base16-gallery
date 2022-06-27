@@ -1,0 +1,12 @@
+#black-metal pre { white-space: pre-wrap; font-family: monospace; color: #c1c1c1; background-color: #000000; }
+#black-metal pre { font-family: monospace; color: #c1c1c1; background-color: #000000; }
+#black-metal * { font-size: 1em; }
+#black-metal .Special { color: #aaaaaa; }
+#black-metal .Identifier { color: #5f8787; }
+#black-metal .Statement { color: #5f8787; font-weight: bold; }
+#black-metal .PreProc { color: #a06666; }
+#black-metal .Number { color: #aaaaaa; }
+#black-metal .Operator { color: #c1c1c1; }
+#black-metal .String { color: #dd9999; }
+#black-metal .Comment { color: #333333; }
+#black-metal .Conditional { color: #999999; }

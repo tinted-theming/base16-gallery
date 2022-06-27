@@ -1,0 +1,12 @@
+#colors pre { white-space: pre-wrap; font-family: monospace; color: #bbbbbb; background-color: #111111; }
+#colors pre { font-family: monospace; color: #bbbbbb; background-color: #111111; }
+#colors * { font-size: 1em; }
+#colors .Special { color: #7fdbff; }
+#colors .Identifier { color: #ff4136; }
+#colors .Statement { color: #ff4136; font-weight: bold; }
+#colors .PreProc { color: #ffdc00; }
+#colors .Number { color: #ff851b; }
+#colors .Operator { color: #bbbbbb; }
+#colors .String { color: #2ecc40; }
+#colors .Comment { color: #777777; }
+#colors .Conditional { color: #b10dc9; }

@@ -1,0 +1,12 @@
+#tokyo-city-terminal-dark pre { white-space: pre-wrap; font-family: monospace; color: #d8e2ec; background-color: #171d23; }
+#tokyo-city-terminal-dark pre { font-family: monospace; color: #d8e2ec; background-color: #171d23; }
+#tokyo-city-terminal-dark * { font-size: 1em; }
+#tokyo-city-terminal-dark .Special { color: #70e1e8; }
+#tokyo-city-terminal-dark .Identifier { color: #d95468; }
+#tokyo-city-terminal-dark .Statement { color: #d95468; font-weight: bold; }
+#tokyo-city-terminal-dark .PreProc { color: #ebbf83; }
+#tokyo-city-terminal-dark .Number { color: #ff9e64; }
+#tokyo-city-terminal-dark .Operator { color: #d8e2ec; }
+#tokyo-city-terminal-dark .String { color: #8bd49c; }
+#tokyo-city-terminal-dark .Comment { color: #526270; }
+#tokyo-city-terminal-dark .Conditional { color: #b62d65; }

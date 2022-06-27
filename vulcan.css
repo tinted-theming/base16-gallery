@@ -1,0 +1,12 @@
+#vulcan pre { white-space: pre-wrap; font-family: monospace; color: #5b778c; background-color: #041523; }
+#vulcan pre { font-family: monospace; color: #5b778c; background-color: #041523; }
+#vulcan * { font-size: 1em; }
+#vulcan .Special { color: #977d7c; }
+#vulcan .Identifier { color: #818591; }
+#vulcan .Statement { color: #818591; font-weight: bold; }
+#vulcan .PreProc { color: #adb4b9; }
+#vulcan .Number { color: #9198a3; }
+#vulcan .Operator { color: #5b778c; }
+#vulcan .String { color: #977d7c; }
+#vulcan .Comment { color: #7a5759; }
+#vulcan .Conditional { color: #9198a3; }

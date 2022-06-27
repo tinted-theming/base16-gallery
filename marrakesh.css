@@ -1,0 +1,12 @@
+#marrakesh pre { white-space: pre-wrap; font-family: monospace; color: #948e48; background-color: #201602; }
+#marrakesh pre { font-family: monospace; color: #948e48; background-color: #201602; }
+#marrakesh * { font-size: 1em; }
+#marrakesh .Special { color: #75a738; }
+#marrakesh .Identifier { color: #c35359; }
+#marrakesh .Statement { color: #c35359; font-weight: bold; }
+#marrakesh .PreProc { color: #a88339; }
+#marrakesh .Number { color: #b36144; }
+#marrakesh .Operator { color: #948e48; }
+#marrakesh .String { color: #18974e; }
+#marrakesh .Comment { color: #6c6823; }
+#marrakesh .Conditional { color: #8868b3; }

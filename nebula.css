@@ -1,0 +1,12 @@
+#nebula pre { white-space: pre-wrap; font-family: monospace; color: #a4a6a9; background-color: #22273b; }
+#nebula pre { font-family: monospace; color: #a4a6a9; background-color: #22273b; }
+#nebula * { font-size: 1em; }
+#nebula .Special { color: #226f68; }
+#nebula .Identifier { color: #777abc; }
+#nebula .Statement { color: #777abc; font-weight: bold; }
+#nebula .PreProc { color: #4f9062; }
+#nebula .Number { color: #94929e; }
+#nebula .Operator { color: #a4a6a9; }
+#nebula .String { color: #6562a8; }
+#nebula .Comment { color: #6e6f72; }
+#nebula .Conditional { color: #716cae; }

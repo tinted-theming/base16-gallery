@@ -1,0 +1,12 @@
+#ocean pre { white-space: pre-wrap; font-family: monospace; color: #c0c5ce; background-color: #2b303b; }
+#ocean pre { font-family: monospace; color: #c0c5ce; background-color: #2b303b; }
+#ocean * { font-size: 1em; }
+#ocean .Special { color: #96b5b4; }
+#ocean .Identifier { color: #bf616a; }
+#ocean .Statement { color: #bf616a; font-weight: bold; }
+#ocean .PreProc { color: #ebcb8b; }
+#ocean .Number { color: #d08770; }
+#ocean .Operator { color: #c0c5ce; }
+#ocean .String { color: #a3be8c; }
+#ocean .Comment { color: #65737e; }
+#ocean .Conditional { color: #b48ead; }

@@ -1,0 +1,12 @@
+#gotham pre { white-space: pre-wrap; font-family: monospace; color: #599cab; background-color: #0c1014; }
+#gotham pre { font-family: monospace; color: #599cab; background-color: #0c1014; }
+#gotham * { font-size: 1em; }
+#gotham .Special { color: #2aa889; }
+#gotham .Identifier { color: #c23127; }
+#gotham .Statement { color: #c23127; font-weight: bold; }
+#gotham .PreProc { color: #edb443; }
+#gotham .Number { color: #d26937; }
+#gotham .Operator { color: #599cab; }
+#gotham .String { color: #33859e; }
+#gotham .Comment { color: #0a3749; }
+#gotham .Conditional { color: #888ca6; }

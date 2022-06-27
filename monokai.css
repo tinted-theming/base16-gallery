@@ -1,0 +1,12 @@
+#monokai pre { white-space: pre-wrap; font-family: monospace; color: #f8f8f2; background-color: #272822; }
+#monokai pre { font-family: monospace; color: #f8f8f2; background-color: #272822; }
+#monokai * { font-size: 1em; }
+#monokai .Special { color: #a1efe4; }
+#monokai .Identifier { color: #f92672; }
+#monokai .Statement { color: #f92672; font-weight: bold; }
+#monokai .PreProc { color: #f4bf75; }
+#monokai .Number { color: #fd971f; }
+#monokai .Operator { color: #f8f8f2; }
+#monokai .String { color: #a6e22e; }
+#monokai .Comment { color: #75715e; }
+#monokai .Conditional { color: #ae81ff; }

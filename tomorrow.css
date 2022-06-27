@@ -1,0 +1,12 @@
+#tomorrow pre { white-space: pre-wrap; font-family: monospace; color: #4d4d4c; background-color: #ffffff; }
+#tomorrow pre { font-family: monospace; color: #4d4d4c; background-color: #ffffff; }
+#tomorrow * { font-size: 1em; }
+#tomorrow .Special { color: #3e999f; }
+#tomorrow .Identifier { color: #c82829; }
+#tomorrow .Statement { color: #c82829; font-weight: bold; }
+#tomorrow .PreProc { color: #eab700; }
+#tomorrow .Number { color: #f5871f; }
+#tomorrow .Operator { color: #4d4d4c; }
+#tomorrow .String { color: #718c00; }
+#tomorrow .Comment { color: #8e908c; }
+#tomorrow .Conditional { color: #8959a8; }

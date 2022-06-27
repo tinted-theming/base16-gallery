@@ -1,0 +1,12 @@
+#danqing pre { white-space: pre-wrap; font-family: monospace; color: #e0f0ef; background-color: #2d302f; }
+#danqing pre { font-family: monospace; color: #e0f0ef; background-color: #2d302f; }
+#danqing * { font-size: 1em; }
+#danqing .Special { color: #30dff3; }
+#danqing .Identifier { color: #f9906f; }
+#danqing .Statement { color: #f9906f; font-weight: bold; }
+#danqing .PreProc { color: #f0c239; }
+#danqing .Number { color: #b38a61; }
+#danqing .Operator { color: #e0f0ef; }
+#danqing .String { color: #8ab361; }
+#danqing .Comment { color: #9da8a3; }
+#danqing .Conditional { color: #cca4e3; }

@@ -1,0 +1,12 @@
+#railscasts pre { white-space: pre-wrap; font-family: monospace; color: #e6e1dc; background-color: #2b2b2b; }
+#railscasts pre { font-family: monospace; color: #e6e1dc; background-color: #2b2b2b; }
+#railscasts * { font-size: 1em; }
+#railscasts .Special { color: #519f50; }
+#railscasts .Identifier { color: #da4939; }
+#railscasts .Statement { color: #da4939; font-weight: bold; }
+#railscasts .PreProc { color: #ffc66d; }
+#railscasts .Number { color: #cc7833; }
+#railscasts .Operator { color: #e6e1dc; }
+#railscasts .String { color: #a5c261; }
+#railscasts .Comment { color: #5a647e; }
+#railscasts .Conditional { color: #b6b3eb; }

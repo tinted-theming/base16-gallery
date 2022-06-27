@@ -1,0 +1,12 @@
+#phd pre { white-space: pre-wrap; font-family: monospace; color: #b8bbc2; background-color: #061229; }
+#phd pre { font-family: monospace; color: #b8bbc2; background-color: #061229; }
+#phd * { font-size: 1em; }
+#phd .Special { color: #72b9bf; }
+#phd .Identifier { color: #d07346; }
+#phd .Statement { color: #d07346; font-weight: bold; }
+#phd .PreProc { color: #fbd461; }
+#phd .Number { color: #f0a000; }
+#phd .Operator { color: #b8bbc2; }
+#phd .String { color: #99bf52; }
+#phd .Comment { color: #717885; }
+#phd .Conditional { color: #9989cc; }

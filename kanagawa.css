@@ -1,0 +1,12 @@
+#kanagawa pre { white-space: pre-wrap; font-family: monospace; color: #dcd7ba; background-color: #1f1f28; }
+#kanagawa pre { font-family: monospace; color: #dcd7ba; background-color: #1f1f28; }
+#kanagawa * { font-size: 1em; }
+#kanagawa .Special { color: #6a9589; }
+#kanagawa .Identifier { color: #c34043; }
+#kanagawa .Statement { color: #c34043; font-weight: bold; }
+#kanagawa .PreProc { color: #c0a36e; }
+#kanagawa .Number { color: #ffa066; }
+#kanagawa .Operator { color: #dcd7ba; }
+#kanagawa .String { color: #76946a; }
+#kanagawa .Comment { color: #54546d; }
+#kanagawa .Conditional { color: #957fb8; }

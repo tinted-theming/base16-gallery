@@ -1,0 +1,12 @@
+#ashes pre { white-space: pre-wrap; font-family: monospace; color: #c7ccd1; background-color: #1c2023; }
+#ashes pre { font-family: monospace; color: #c7ccd1; background-color: #1c2023; }
+#ashes * { font-size: 1em; }
+#ashes .Special { color: #95aec7; }
+#ashes .Identifier { color: #c7ae95; }
+#ashes .Statement { color: #c7ae95; font-weight: bold; }
+#ashes .PreProc { color: #aec795; }
+#ashes .Number { color: #c7c795; }
+#ashes .Operator { color: #c7ccd1; }
+#ashes .String { color: #95c7ae; }
+#ashes .Comment { color: #747c84; }
+#ashes .Conditional { color: #c795ae; }

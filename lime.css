@@ -1,0 +1,12 @@
+#lime pre { white-space: pre-wrap; font-family: monospace; color: #818175; background-color: #1a1a2f; }
+#lime pre { font-family: monospace; color: #818175; background-color: #1a1a2f; }
+#lime * { font-size: 1em; }
+#lime .Special { color: #4cad83; }
+#lime .Identifier { color: #ff662a; }
+#lime .Statement { color: #ff662a; font-weight: bold; }
+#lime .PreProc { color: #ffd15e; }
+#lime .Number { color: #ff773a; }
+#lime .Operator { color: #818175; }
+#lime .String { color: #8cd97c; }
+#lime .Comment { color: #313140; }
+#lime .Conditional { color: #1b825f; }

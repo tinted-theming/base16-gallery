@@ -1,0 +1,12 @@
+#gruvbox-material-light-medium pre { white-space: pre-wrap; font-family: monospace; color: #654735; background-color: #fbf1c7; }
+#gruvbox-material-light-medium pre { font-family: monospace; color: #654735; background-color: #fbf1c7; }
+#gruvbox-material-light-medium * { font-size: 1em; }
+#gruvbox-material-light-medium .Special { color: #4c7a5d; }
+#gruvbox-material-light-medium .Identifier { color: #c14a4a; }
+#gruvbox-material-light-medium .Statement { color: #c14a4a; font-weight: bold; }
+#gruvbox-material-light-medium .PreProc { color: #b47109; }
+#gruvbox-material-light-medium .Number { color: #c35e0a; }
+#gruvbox-material-light-medium .Operator { color: #654735; }
+#gruvbox-material-light-medium .String { color: #6c782e; }
+#gruvbox-material-light-medium .Comment { color: #bdae93; }
+#gruvbox-material-light-medium .Conditional { color: #945e80; }

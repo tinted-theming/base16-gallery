@@ -1,0 +1,12 @@
+#atelier-cave-light pre { white-space: pre-wrap; font-family: monospace; color: #585260; background-color: #efecf4; }
+#atelier-cave-light pre { font-family: monospace; color: #585260; background-color: #efecf4; }
+#atelier-cave-light * { font-size: 1em; }
+#atelier-cave-light .Special { color: #398bc6; }
+#atelier-cave-light .Identifier { color: #be4678; }
+#atelier-cave-light .Statement { color: #be4678; font-weight: bold; }
+#atelier-cave-light .PreProc { color: #a06e3b; }
+#atelier-cave-light .Number { color: #aa573c; }
+#atelier-cave-light .Operator { color: #585260; }
+#atelier-cave-light .String { color: #2a9292; }
+#atelier-cave-light .Comment { color: #7e7887; }
+#atelier-cave-light .Conditional { color: #955ae7; }

@@ -1,0 +1,12 @@
+#gruber pre { white-space: pre-wrap; font-family: monospace; color: #f4f4ff; background-color: #181818; }
+#gruber pre { font-family: monospace; color: #f4f4ff; background-color: #181818; }
+#gruber * { font-size: 1em; }
+#gruber .Special { color: #95a99f; }
+#gruber .Identifier { color: #f43841; }
+#gruber .Statement { color: #f43841; font-weight: bold; }
+#gruber .PreProc { color: #ffdd33; }
+#gruber .Number { color: #c73c3f; }
+#gruber .Operator { color: #f4f4ff; }
+#gruber .String { color: #73c936; }
+#gruber .Comment { color: #52494e; }
+#gruber .Conditional { color: #9e95c7; }

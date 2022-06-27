@@ -1,0 +1,12 @@
+#gigavolt pre { white-space: pre-wrap; font-family: monospace; color: #e9e7e1; background-color: #202126; }
+#gigavolt pre { font-family: monospace; color: #e9e7e1; background-color: #202126; }
+#gigavolt * { font-size: 1em; }
+#gigavolt .Special { color: #fb6acb; }
+#gigavolt .Identifier { color: #ff661a; }
+#gigavolt .Statement { color: #ff661a; font-weight: bold; }
+#gigavolt .PreProc { color: #ffdc2d; }
+#gigavolt .Number { color: #19f988; }
+#gigavolt .Operator { color: #e9e7e1; }
+#gigavolt .String { color: #f2e6a9; }
+#gigavolt .Comment { color: #a1d2e6; }
+#gigavolt .Conditional { color: #ae94f9; }

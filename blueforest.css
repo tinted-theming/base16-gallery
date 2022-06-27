@@ -1,0 +1,12 @@
+#blueforest pre { white-space: pre-wrap; font-family: monospace; color: #ffcc33; background-color: #141f2e; }
+#blueforest pre { font-family: monospace; color: #ffcc33; background-color: #141f2e; }
+#blueforest * { font-size: 1em; }
+#blueforest .Special { color: #80ff80; }
+#blueforest .Identifier { color: #fffab1; }
+#blueforest .Statement { color: #fffab1; font-weight: bold; }
+#blueforest .PreProc { color: #91ccff; }
+#blueforest .Number { color: #ff8080; }
+#blueforest .Operator { color: #ffcc33; }
+#blueforest .String { color: #80ff80; }
+#blueforest .Comment { color: #a0ffa0; }
+#blueforest .Conditional { color: #0099ff; }

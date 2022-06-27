@@ -1,0 +1,12 @@
+#pasque pre { white-space: pre-wrap; font-family: monospace; color: #dedcdf; background-color: #271c3a; }
+#pasque pre { font-family: monospace; color: #dedcdf; background-color: #271c3a; }
+#pasque * { font-size: 1em; }
+#pasque .Special { color: #7263aa; }
+#pasque .Identifier { color: #a92258; }
+#pasque .Statement { color: #a92258; font-weight: bold; }
+#pasque .PreProc { color: #804ead; }
+#pasque .Number { color: #918889; }
+#pasque .Operator { color: #dedcdf; }
+#pasque .String { color: #c6914b; }
+#pasque .Comment { color: #5d5766; }
+#pasque .Conditional { color: #953b9d; }

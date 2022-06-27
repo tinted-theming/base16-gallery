@@ -1,0 +1,12 @@
+#espresso pre { white-space: pre-wrap; font-family: monospace; color: #cccccc; background-color: #2d2d2d; }
+#espresso pre { font-family: monospace; color: #cccccc; background-color: #2d2d2d; }
+#espresso * { font-size: 1em; }
+#espresso .Special { color: #bed6ff; }
+#espresso .Identifier { color: #d25252; }
+#espresso .Statement { color: #d25252; font-weight: bold; }
+#espresso .PreProc { color: #ffc66d; }
+#espresso .Number { color: #f9a959; }
+#espresso .Operator { color: #cccccc; }
+#espresso .String { color: #a5c261; }
+#espresso .Comment { color: #777777; }
+#espresso .Conditional { color: #d197d9; }

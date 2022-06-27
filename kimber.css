@@ -1,0 +1,12 @@
+#kimber pre { white-space: pre-wrap; font-family: monospace; color: #dedee7; background-color: #222222; }
+#kimber pre { font-family: monospace; color: #dedee7; background-color: #222222; }
+#kimber * { font-size: 1em; }
+#kimber .Special { color: #78b4b4; }
+#kimber .Identifier { color: #c88c8c; }
+#kimber .Statement { color: #c88c8c; font-weight: bold; }
+#kimber .PreProc { color: #d8b56d; }
+#kimber .Number { color: #476c88; }
+#kimber .Operator { color: #dedee7; }
+#kimber .String { color: #99c899; }
+#kimber .Comment { color: #644646; }
+#kimber .Conditional { color: #86cacd; }

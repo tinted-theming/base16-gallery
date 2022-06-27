@@ -1,0 +1,12 @@
+#eva pre { white-space: pre-wrap; font-family: monospace; color: #9fa2a6; background-color: #2a3b4d; }
+#eva pre { font-family: monospace; color: #9fa2a6; background-color: #2a3b4d; }
+#eva * { font-size: 1em; }
+#eva .Special { color: #4b8f77; }
+#eva .Identifier { color: #c4676c; }
+#eva .Statement { color: #c4676c; font-weight: bold; }
+#eva .PreProc { color: #ffff66; }
+#eva .Number { color: #ff9966; }
+#eva .Operator { color: #9fa2a6; }
+#eva .String { color: #66ff66; }
+#eva .Comment { color: #55799c; }
+#eva .Conditional { color: #9c6cd3; }

@@ -1,0 +1,12 @@
+#atelier-dune pre { white-space: pre-wrap; font-family: monospace; color: #a6a28c; background-color: #20201d; }
+#atelier-dune pre { font-family: monospace; color: #a6a28c; background-color: #20201d; }
+#atelier-dune * { font-size: 1em; }
+#atelier-dune .Special { color: #1fad83; }
+#atelier-dune .Identifier { color: #d73737; }
+#atelier-dune .Statement { color: #d73737; font-weight: bold; }
+#atelier-dune .PreProc { color: #ae9513; }
+#atelier-dune .Number { color: #b65611; }
+#atelier-dune .Operator { color: #a6a28c; }
+#atelier-dune .String { color: #60ac39; }
+#atelier-dune .Comment { color: #7d7a68; }
+#atelier-dune .Conditional { color: #b854d4; }

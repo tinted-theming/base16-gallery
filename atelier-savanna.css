@@ -1,0 +1,12 @@
+#atelier-savanna pre { white-space: pre-wrap; font-family: monospace; color: #87928a; background-color: #171c19; }
+#atelier-savanna pre { font-family: monospace; color: #87928a; background-color: #171c19; }
+#atelier-savanna * { font-size: 1em; }
+#atelier-savanna .Special { color: #1c9aa0; }
+#atelier-savanna .Identifier { color: #b16139; }
+#atelier-savanna .Statement { color: #b16139; font-weight: bold; }
+#atelier-savanna .PreProc { color: #a07e3b; }
+#atelier-savanna .Number { color: #9f713c; }
+#atelier-savanna .Operator { color: #87928a; }
+#atelier-savanna .String { color: #489963; }
+#atelier-savanna .Comment { color: #5f6d64; }
+#atelier-savanna .Conditional { color: #55859b; }

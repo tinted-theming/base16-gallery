@@ -1,0 +1,12 @@
+#sagelight pre { white-space: pre-wrap; font-family: monospace; color: #383838; background-color: #f8f8f8; }
+#sagelight pre { font-family: monospace; color: #383838; background-color: #f8f8f8; }
+#sagelight * { font-size: 1em; }
+#sagelight .Special { color: #a2d6f5; }
+#sagelight .Identifier { color: #fa8480; }
+#sagelight .Statement { color: #fa8480; font-weight: bold; }
+#sagelight .PreProc { color: #ffdc61; }
+#sagelight .Number { color: #ffaa61; }
+#sagelight .Operator { color: #383838; }
+#sagelight .String { color: #a0d2c8; }
+#sagelight .Comment { color: #b8b8b8; }
+#sagelight .Conditional { color: #c8a0d2; }

@@ -1,0 +1,12 @@
+#atelier-forest-light pre { white-space: pre-wrap; font-family: monospace; color: #68615e; background-color: #f1efee; }
+#atelier-forest-light pre { font-family: monospace; color: #68615e; background-color: #f1efee; }
+#atelier-forest-light * { font-size: 1em; }
+#atelier-forest-light .Special { color: #3d97b8; }
+#atelier-forest-light .Identifier { color: #f22c40; }
+#atelier-forest-light .Statement { color: #f22c40; font-weight: bold; }
+#atelier-forest-light .PreProc { color: #c38418; }
+#atelier-forest-light .Number { color: #df5320; }
+#atelier-forest-light .Operator { color: #68615e; }
+#atelier-forest-light .String { color: #7b9726; }
+#atelier-forest-light .Comment { color: #9c9491; }
+#atelier-forest-light .Conditional { color: #6666ea; }

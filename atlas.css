@@ -1,0 +1,12 @@
+#atlas pre { white-space: pre-wrap; font-family: monospace; color: #a1a19a; background-color: #002635; }
+#atlas pre { font-family: monospace; color: #a1a19a; background-color: #002635; }
+#atlas * { font-size: 1em; }
+#atlas .Special { color: #14747e; }
+#atlas .Identifier { color: #ff5a67; }
+#atlas .Statement { color: #ff5a67; font-weight: bold; }
+#atlas .PreProc { color: #ffcc1b; }
+#atlas .Number { color: #f08e48; }
+#atlas .Operator { color: #a1a19a; }
+#atlas .String { color: #7fc06e; }
+#atlas .Comment { color: #6c8b91; }
+#atlas .Conditional { color: #9a70a4; }

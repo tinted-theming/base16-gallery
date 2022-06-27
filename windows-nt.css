@@ -1,0 +1,12 @@
+#windows-nt pre { white-space: pre-wrap; font-family: monospace; color: #c0c0c0; background-color: #000000; }
+#windows-nt pre { font-family: monospace; color: #c0c0c0; background-color: #000000; }
+#windows-nt * { font-size: 1em; }
+#windows-nt .Special { color: #00ffff; }
+#windows-nt .Identifier { color: #ff0000; }
+#windows-nt .Statement { color: #ff0000; font-weight: bold; }
+#windows-nt .PreProc { color: #ffff00; }
+#windows-nt .Number { color: #808000; }
+#windows-nt .Operator { color: #c0c0c0; }
+#windows-nt .String { color: #00ff00; }
+#windows-nt .Comment { color: #808080; }
+#windows-nt .Conditional { color: #ff00ff; }

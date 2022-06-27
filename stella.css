@@ -1,0 +1,12 @@
+#stella pre { white-space: pre-wrap; font-family: monospace; color: #998bad; background-color: #2b213c; }
+#stella pre { font-family: monospace; color: #998bad; background-color: #2b213c; }
+#stella * { font-size: 1em; }
+#stella .Special { color: #9bc7bf; }
+#stella .Identifier { color: #c79987; }
+#stella .Statement { color: #c79987; font-weight: bold; }
+#stella .PreProc { color: #c7c691; }
+#stella .Number { color: #8865c6; }
+#stella .Operator { color: #998bad; }
+#stella .String { color: #acc79b; }
+#stella .Comment { color: #655978; }
+#stella .Conditional { color: #c594ff; }

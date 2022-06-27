@@ -1,0 +1,12 @@
+#mocha pre { white-space: pre-wrap; font-family: monospace; color: #d0c8c6; background-color: #3b3228; }
+#mocha pre { font-family: monospace; color: #d0c8c6; background-color: #3b3228; }
+#mocha * { font-size: 1em; }
+#mocha .Special { color: #7bbda4; }
+#mocha .Identifier { color: #cb6077; }
+#mocha .Statement { color: #cb6077; font-weight: bold; }
+#mocha .PreProc { color: #f4bc87; }
+#mocha .Number { color: #d28b71; }
+#mocha .Operator { color: #d0c8c6; }
+#mocha .String { color: #beb55b; }
+#mocha .Comment { color: #7e705a; }
+#mocha .Conditional { color: #a89bb9; }

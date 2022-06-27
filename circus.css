@@ -1,0 +1,12 @@
+#circus pre { white-space: pre-wrap; font-family: monospace; color: #a7a7a7; background-color: #191919; }
+#circus pre { font-family: monospace; color: #a7a7a7; background-color: #191919; }
+#circus * { font-size: 1em; }
+#circus .Special { color: #4bb1a7; }
+#circus .Identifier { color: #dc657d; }
+#circus .Statement { color: #dc657d; font-weight: bold; }
+#circus .PreProc { color: #c3ba63; }
+#circus .Number { color: #4bb1a7; }
+#circus .Operator { color: #a7a7a7; }
+#circus .String { color: #84b97c; }
+#circus .Comment { color: #5f5a60; }
+#circus .Conditional { color: #b888e2; }

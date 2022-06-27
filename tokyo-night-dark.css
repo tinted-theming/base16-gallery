@@ -1,0 +1,12 @@
+#tokyo-night-dark pre { white-space: pre-wrap; font-family: monospace; color: #a9b1d6; background-color: #1a1b26; }
+#tokyo-night-dark pre { font-family: monospace; color: #a9b1d6; background-color: #1a1b26; }
+#tokyo-night-dark * { font-size: 1em; }
+#tokyo-night-dark .Special { color: #b4f9f8; }
+#tokyo-night-dark .Identifier { color: #c0caf5; }
+#tokyo-night-dark .Statement { color: #c0caf5; font-weight: bold; }
+#tokyo-night-dark .PreProc { color: #0db9d7; }
+#tokyo-night-dark .Number { color: #a9b1d6; }
+#tokyo-night-dark .Operator { color: #a9b1d6; }
+#tokyo-night-dark .String { color: #9ece6a; }
+#tokyo-night-dark .Comment { color: #444b6a; }
+#tokyo-night-dark .Conditional { color: #bb9af7; }

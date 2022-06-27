@@ -1,0 +1,12 @@
+#summerfruit-dark pre { white-space: pre-wrap; font-family: monospace; color: #d0d0d0; background-color: #151515; }
+#summerfruit-dark pre { font-family: monospace; color: #d0d0d0; background-color: #151515; }
+#summerfruit-dark * { font-size: 1em; }
+#summerfruit-dark .Special { color: #1faaaa; }
+#summerfruit-dark .Identifier { color: #ff0086; }
+#summerfruit-dark .Statement { color: #ff0086; font-weight: bold; }
+#summerfruit-dark .PreProc { color: #aba800; }
+#summerfruit-dark .Number { color: #fd8900; }
+#summerfruit-dark .Operator { color: #d0d0d0; }
+#summerfruit-dark .String { color: #00c918; }
+#summerfruit-dark .Comment { color: #505050; }
+#summerfruit-dark .Conditional { color: #ad00a1; }

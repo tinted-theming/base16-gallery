@@ -1,0 +1,12 @@
+#github pre { white-space: pre-wrap; font-family: monospace; color: #333333; background-color: #ffffff; }
+#github pre { font-family: monospace; color: #333333; background-color: #ffffff; }
+#github * { font-size: 1em; }
+#github .Special { color: #183691; }
+#github .Identifier { color: #ed6a43; }
+#github .Statement { color: #ed6a43; font-weight: bold; }
+#github .PreProc { color: #795da3; }
+#github .Number { color: #0086b3; }
+#github .Operator { color: #333333; }
+#github .String { color: #183691; }
+#github .Comment { color: #969896; }
+#github .Conditional { color: #a71d5d; }

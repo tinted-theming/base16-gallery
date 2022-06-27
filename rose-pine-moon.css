@@ -1,0 +1,12 @@
+#rose-pine-moon pre { white-space: pre-wrap; font-family: monospace; color: #e0def4; background-color: #232136; }
+#rose-pine-moon pre { font-family: monospace; color: #e0def4; background-color: #232136; }
+#rose-pine-moon * { font-size: 1em; }
+#rose-pine-moon .Special { color: #3e8fb0; }
+#rose-pine-moon .Identifier { color: #ecebf0; }
+#rose-pine-moon .Statement { color: #ecebf0; font-weight: bold; }
+#rose-pine-moon .PreProc { color: #f6c177; }
+#rose-pine-moon .Number { color: #eb6f92; }
+#rose-pine-moon .Operator { color: #e0def4; }
+#rose-pine-moon .String { color: #ea9a97; }
+#rose-pine-moon .Comment { color: #59546d; }
+#rose-pine-moon .Conditional { color: #c4a7e7; }

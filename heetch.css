@@ -1,0 +1,12 @@
+#heetch pre { white-space: pre-wrap; font-family: monospace; color: #bdb6c5; background-color: #190134; }
+#heetch pre { font-family: monospace; color: #bdb6c5; background-color: #190134; }
+#heetch * { font-size: 1em; }
+#heetch .Special { color: #f80059; }
+#heetch .Identifier { color: #27d9d5; }
+#heetch .Statement { color: #27d9d5; font-weight: bold; }
+#heetch .PreProc { color: #8f6c97; }
+#heetch .Number { color: #5ba2b6; }
+#heetch .Operator { color: #bdb6c5; }
+#heetch .String { color: #c33678; }
+#heetch .Comment { color: #7b6d8b; }
+#heetch .Conditional { color: #82034c; }

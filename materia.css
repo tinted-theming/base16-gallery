@@ -1,0 +1,12 @@
+#materia pre { white-space: pre-wrap; font-family: monospace; color: #cdd3de; background-color: #263238; }
+#materia pre { font-family: monospace; color: #cdd3de; background-color: #263238; }
+#materia * { font-size: 1em; }
+#materia .Special { color: #80cbc4; }
+#materia .Identifier { color: #ec5f67; }
+#materia .Statement { color: #ec5f67; font-weight: bold; }
+#materia .PreProc { color: #ffcc00; }
+#materia .Number { color: #ea9560; }
+#materia .Operator { color: #cdd3de; }
+#materia .String { color: #8bd649; }
+#materia .Comment { color: #707880; }
+#materia .Conditional { color: #82aaff; }

@@ -1,0 +1,12 @@
+#tender pre { white-space: pre-wrap; font-family: monospace; color: #eeeeee; background-color: #282828; }
+#tender pre { font-family: monospace; color: #eeeeee; background-color: #282828; }
+#tender * { font-size: 1em; }
+#tender .Special { color: #73cef4; }
+#tender .Identifier { color: #f43753; }
+#tender .Statement { color: #f43753; font-weight: bold; }
+#tender .PreProc { color: #ffc24b; }
+#tender .Number { color: #dc9656; }
+#tender .Operator { color: #eeeeee; }
+#tender .String { color: #c9d05c; }
+#tender .Comment { color: #4c4c4c; }
+#tender .Conditional { color: #d3b987; }

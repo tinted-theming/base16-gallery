@@ -1,0 +1,12 @@
+#sakura pre { white-space: pre-wrap; font-family: monospace; color: #564448; background-color: #feedf3; }
+#sakura pre { font-family: monospace; color: #564448; background-color: #feedf3; }
+#sakura * { font-size: 1em; }
+#sakura .Special { color: #1d8991; }
+#sakura .Identifier { color: #df2d52; }
+#sakura .Statement { color: #df2d52; font-weight: bold; }
+#sakura .PreProc { color: #c29461; }
+#sakura .Number { color: #f6661e; }
+#sakura .Operator { color: #564448; }
+#sakura .String { color: #2e916d; }
+#sakura .Comment { color: #755f64; }
+#sakura .Conditional { color: #5e2180; }

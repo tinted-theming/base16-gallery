@@ -1,0 +1,12 @@
+#black-metal-immortal pre { white-space: pre-wrap; font-family: monospace; color: #c1c1c1; background-color: #000000; }
+#black-metal-immortal pre { font-family: monospace; color: #c1c1c1; background-color: #000000; }
+#black-metal-immortal * { font-size: 1em; }
+#black-metal-immortal .Special { color: #aaaaaa; }
+#black-metal-immortal .Identifier { color: #5f8787; }
+#black-metal-immortal .Statement { color: #5f8787; font-weight: bold; }
+#black-metal-immortal .PreProc { color: #556677; }
+#black-metal-immortal .Number { color: #aaaaaa; }
+#black-metal-immortal .Operator { color: #c1c1c1; }
+#black-metal-immortal .String { color: #7799bb; }
+#black-metal-immortal .Comment { color: #333333; }
+#black-metal-immortal .Conditional { color: #999999; }

@@ -1,0 +1,12 @@
+#purpledream pre { white-space: pre-wrap; font-family: monospace; color: #ddd0dd; background-color: #100510; }
+#purpledream pre { font-family: monospace; color: #ddd0dd; background-color: #100510; }
+#purpledream * { font-size: 1em; }
+#purpledream .Special { color: #0075b0; }
+#purpledream .Identifier { color: #ff1d0d; }
+#purpledream .Statement { color: #ff1d0d; font-weight: bold; }
+#purpledream .PreProc { color: #f000a0; }
+#purpledream .Number { color: #ccae14; }
+#purpledream .Operator { color: #ddd0dd; }
+#purpledream .String { color: #14cc64; }
+#purpledream .Comment { color: #605060; }
+#purpledream .Conditional { color: #b000d0; }

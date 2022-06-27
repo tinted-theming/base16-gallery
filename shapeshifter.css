@@ -1,0 +1,12 @@
+#shapeshifter pre { white-space: pre-wrap; font-family: monospace; color: #102015; background-color: #f9f9f9; }
+#shapeshifter pre { font-family: monospace; color: #102015; background-color: #f9f9f9; }
+#shapeshifter * { font-size: 1em; }
+#shapeshifter .Special { color: #23edda; }
+#shapeshifter .Identifier { color: #e92f2f; }
+#shapeshifter .Statement { color: #e92f2f; font-weight: bold; }
+#shapeshifter .PreProc { color: #dddd13; }
+#shapeshifter .Number { color: #e09448; }
+#shapeshifter .Operator { color: #102015; }
+#shapeshifter .String { color: #0ed839; }
+#shapeshifter .Comment { color: #555555; }
+#shapeshifter .Conditional { color: #f996e2; }

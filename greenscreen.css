@@ -1,0 +1,12 @@
+#greenscreen pre { white-space: pre-wrap; font-family: monospace; color: #00bb00; background-color: #001100; }
+#greenscreen pre { font-family: monospace; color: #00bb00; background-color: #001100; }
+#greenscreen * { font-size: 1em; }
+#greenscreen .Special { color: #005500; }
+#greenscreen .Identifier { color: #007700; }
+#greenscreen .Statement { color: #007700; font-weight: bold; }
+#greenscreen .PreProc { color: #007700; }
+#greenscreen .Number { color: #009900; }
+#greenscreen .Operator { color: #00bb00; }
+#greenscreen .String { color: #00bb00; }
+#greenscreen .Comment { color: #007700; }
+#greenscreen .Conditional { color: #00bb00; }

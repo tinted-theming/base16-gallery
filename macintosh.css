@@ -1,0 +1,12 @@
+#macintosh pre { white-space: pre-wrap; font-family: monospace; color: #c0c0c0; background-color: #000000; }
+#macintosh pre { font-family: monospace; color: #c0c0c0; background-color: #000000; }
+#macintosh * { font-size: 1em; }
+#macintosh .Special { color: #02abea; }
+#macintosh .Identifier { color: #dd0907; }
+#macintosh .Statement { color: #dd0907; font-weight: bold; }
+#macintosh .PreProc { color: #fbf305; }
+#macintosh .Number { color: #ff6403; }
+#macintosh .Operator { color: #c0c0c0; }
+#macintosh .String { color: #1fb714; }
+#macintosh .Comment { color: #808080; }
+#macintosh .Conditional { color: #4700a5; }

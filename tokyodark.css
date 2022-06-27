@@ -1,0 +1,12 @@
+#tokyodark pre { white-space: pre-wrap; font-family: monospace; color: #abb2bf; background-color: #11121d; }
+#tokyodark pre { font-family: monospace; color: #abb2bf; background-color: #11121d; }
+#tokyodark * { font-size: 1em; }
+#tokyodark .Special { color: #a485dd; }
+#tokyodark .Identifier { color: #a485dd; }
+#tokyodark .Statement { color: #a485dd; font-weight: bold; }
+#tokyodark .PreProc { color: #7199ee; }
+#tokyodark .Number { color: #a485dd; }
+#tokyodark .Operator { color: #abb2bf; }
+#tokyodark .String { color: #d7a65f; }
+#tokyodark .Comment { color: #393a45; }
+#tokyodark .Conditional { color: #ee6d85; }

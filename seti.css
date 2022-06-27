@@ -1,0 +1,12 @@
+#seti pre { white-space: pre-wrap; font-family: monospace; color: #d6d6d6; background-color: #151718; }
+#seti pre { font-family: monospace; color: #d6d6d6; background-color: #151718; }
+#seti * { font-size: 1em; }
+#seti .Special { color: #55dbbe; }
+#seti .Identifier { color: #cd3f45; }
+#seti .Statement { color: #cd3f45; font-weight: bold; }
+#seti .PreProc { color: #e6cd69; }
+#seti .Number { color: #db7b55; }
+#seti .Operator { color: #d6d6d6; }
+#seti .String { color: #9fca56; }
+#seti .Comment { color: #41535b; }
+#seti .Conditional { color: #a074c4; }

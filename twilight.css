@@ -1,0 +1,12 @@
+#twilight pre { white-space: pre-wrap; font-family: monospace; color: #a7a7a7; background-color: #1e1e1e; }
+#twilight pre { font-family: monospace; color: #a7a7a7; background-color: #1e1e1e; }
+#twilight * { font-size: 1em; }
+#twilight .Special { color: #afc4db; }
+#twilight .Identifier { color: #cf6a4c; }
+#twilight .Statement { color: #cf6a4c; font-weight: bold; }
+#twilight .PreProc { color: #f9ee98; }
+#twilight .Number { color: #cda869; }
+#twilight .Operator { color: #a7a7a7; }
+#twilight .String { color: #8f9d6a; }
+#twilight .Comment { color: #5f5a60; }
+#twilight .Conditional { color: #9b859d; }

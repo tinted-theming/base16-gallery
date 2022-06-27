@@ -1,0 +1,12 @@
+#google-dark pre { white-space: pre-wrap; font-family: monospace; color: #c5c8c6; background-color: #1d1f21; }
+#google-dark pre { font-family: monospace; color: #c5c8c6; background-color: #1d1f21; }
+#google-dark * { font-size: 1em; }
+#google-dark .Special { color: #3971ed; }
+#google-dark .Identifier { color: #cc342b; }
+#google-dark .Statement { color: #cc342b; font-weight: bold; }
+#google-dark .PreProc { color: #fba922; }
+#google-dark .Number { color: #f96a38; }
+#google-dark .Operator { color: #c5c8c6; }
+#google-dark .String { color: #198844; }
+#google-dark .Comment { color: #969896; }
+#google-dark .Conditional { color: #a36ac7; }

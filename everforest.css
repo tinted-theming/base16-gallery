@@ -1,0 +1,12 @@
+#everforest pre { white-space: pre-wrap; font-family: monospace; color: #d3c6aa; background-color: #2b3339; }
+#everforest pre { font-family: monospace; color: #d3c6aa; background-color: #2b3339; }
+#everforest * { font-size: 1em; }
+#everforest .Special { color: #83c092; }
+#everforest .Identifier { color: #e67e80; }
+#everforest .Statement { color: #e67e80; font-weight: bold; }
+#everforest .PreProc { color: #dbbc7f; }
+#everforest .Number { color: #e69875; }
+#everforest .Operator { color: #d3c6aa; }
+#everforest .String { color: #a7c080; }
+#everforest .Comment { color: #868d80; }
+#everforest .Conditional { color: #d699b6; }

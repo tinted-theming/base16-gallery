@@ -1,0 +1,12 @@
+#atelier-estuary pre { white-space: pre-wrap; font-family: monospace; color: #929181; background-color: #22221b; }
+#atelier-estuary pre { font-family: monospace; color: #929181; background-color: #22221b; }
+#atelier-estuary * { font-size: 1em; }
+#atelier-estuary .Special { color: #5b9d48; }
+#atelier-estuary .Identifier { color: #ba6236; }
+#atelier-estuary .Statement { color: #ba6236; font-weight: bold; }
+#atelier-estuary .PreProc { color: #a5980d; }
+#atelier-estuary .Number { color: #ae7313; }
+#atelier-estuary .Operator { color: #929181; }
+#atelier-estuary .String { color: #7d9726; }
+#atelier-estuary .Comment { color: #6c6b5a; }
+#atelier-estuary .Conditional { color: #5f9182; }

@@ -1,0 +1,12 @@
+#horizon-light pre { white-space: pre-wrap; font-family: monospace; color: #403c3d; background-color: #fdf0ed; }
+#horizon-light pre { font-family: monospace; color: #403c3d; background-color: #fdf0ed; }
+#horizon-light * { font-size: 1em; }
+#horizon-light .Special { color: #dc3318; }
+#horizon-light .Identifier { color: #f7939b; }
+#horizon-light .Statement { color: #f7939b; font-weight: bold; }
+#horizon-light .PreProc { color: #fbe0d9; }
+#horizon-light .Number { color: #f6661e; }
+#horizon-light .Operator { color: #403c3d; }
+#horizon-light .String { color: #94e1b0; }
+#horizon-light .Comment { color: #bdb3b1; }
+#horizon-light .Conditional { color: #1d8991; }

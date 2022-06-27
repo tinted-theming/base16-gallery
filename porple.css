@@ -1,0 +1,12 @@
+#porple pre { white-space: pre-wrap; font-family: monospace; color: #d8d8d8; background-color: #292c36; }
+#porple pre { font-family: monospace; color: #d8d8d8; background-color: #292c36; }
+#porple * { font-size: 1em; }
+#porple .Special { color: #64878f; }
+#porple .Identifier { color: #f84547; }
+#porple .Statement { color: #f84547; font-weight: bold; }
+#porple .PreProc { color: #efa16b; }
+#porple .Number { color: #d28e5d; }
+#porple .Operator { color: #d8d8d8; }
+#porple .String { color: #95c76f; }
+#porple .Comment { color: #65568a; }
+#porple .Conditional { color: #b74989; }
