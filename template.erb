@@ -44,7 +44,7 @@
       </div>
       <div class="row" id="gallery">
       <% colorschemes.each do |colorscheme| %>
-        <div class="col-4" id="<%= colorscheme %>">
+        <div class="col-4" id="base16-<%= colorscheme %>">
           <div class="content">
             <%= File.read("out/#{colorscheme}.html") %>
           </div>
