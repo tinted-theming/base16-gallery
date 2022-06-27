@@ -1,12 +1,12 @@
-#isotope pre { white-space: pre-wrap; font-family: monospace; color: #d0d0d0; background-color: #000000; }
-#isotope pre { font-family: monospace; color: #d0d0d0; background-color: #000000; }
-#isotope * { font-size: 1em; }
-#isotope .Special { color: #00ffff; }
-#isotope .Identifier { color: #ff0000; }
-#isotope .Statement { color: #ff0000; font-weight: bold; }
-#isotope .PreProc { color: #ff0099; }
-#isotope .Number { color: #ff9900; }
-#isotope .Operator { color: #d0d0d0; }
-#isotope .String { color: #33ff00; }
-#isotope .Comment { color: #808080; }
-#isotope .Conditional { color: #cc00ff; }
+#base16-isotope pre { white-space: pre-wrap; font-family: monospace; color: #d0d0d0; background-color: #000000; }
+#base16-isotope pre { font-family: monospace; color: #d0d0d0; background-color: #000000; }
+#base16-isotope * { font-size: 1em; }
+#base16-isotope .Special { color: #00ffff; }
+#base16-isotope .Identifier { color: #ff0000; }
+#base16-isotope .Statement { color: #ff0000; font-weight: bold; }
+#base16-isotope .PreProc { color: #ff0099; }
+#base16-isotope .Number { color: #ff9900; }
+#base16-isotope .Operator { color: #d0d0d0; }
+#base16-isotope .String { color: #33ff00; }
+#base16-isotope .Comment { color: #808080; }
+#base16-isotope .Conditional { color: #cc00ff; }

@@ -1,12 +1,12 @@
-#gruvbox-light-soft pre { white-space: pre-wrap; font-family: monospace; color: #504945; background-color: #f2e5bc; }
-#gruvbox-light-soft pre { font-family: monospace; color: #504945; background-color: #f2e5bc; }
-#gruvbox-light-soft * { font-size: 1em; }
-#gruvbox-light-soft .Special { color: #427b58; }
-#gruvbox-light-soft .Identifier { color: #9d0006; }
-#gruvbox-light-soft .Statement { color: #9d0006; font-weight: bold; }
-#gruvbox-light-soft .PreProc { color: #b57614; }
-#gruvbox-light-soft .Number { color: #af3a03; }
-#gruvbox-light-soft .Operator { color: #504945; }
-#gruvbox-light-soft .String { color: #79740e; }
-#gruvbox-light-soft .Comment { color: #bdae93; }
-#gruvbox-light-soft .Conditional { color: #8f3f71; }
+#base16-gruvbox-light-soft pre { white-space: pre-wrap; font-family: monospace; color: #504945; background-color: #f2e5bc; }
+#base16-gruvbox-light-soft pre { font-family: monospace; color: #504945; background-color: #f2e5bc; }
+#base16-gruvbox-light-soft * { font-size: 1em; }
+#base16-gruvbox-light-soft .Special { color: #427b58; }
+#base16-gruvbox-light-soft .Identifier { color: #9d0006; }
+#base16-gruvbox-light-soft .Statement { color: #9d0006; font-weight: bold; }
+#base16-gruvbox-light-soft .PreProc { color: #b57614; }
+#base16-gruvbox-light-soft .Number { color: #af3a03; }
+#base16-gruvbox-light-soft .Operator { color: #504945; }
+#base16-gruvbox-light-soft .String { color: #79740e; }
+#base16-gruvbox-light-soft .Comment { color: #bdae93; }
+#base16-gruvbox-light-soft .Conditional { color: #8f3f71; }

@@ -1,12 +1,12 @@
-#windows-nt-light pre { white-space: pre-wrap; font-family: monospace; color: #808080; background-color: #ffffff; }
-#windows-nt-light pre { font-family: monospace; color: #808080; background-color: #ffffff; }
-#windows-nt-light * { font-size: 1em; }
-#windows-nt-light .Special { color: #008080; }
-#windows-nt-light .Identifier { color: #800000; }
-#windows-nt-light .Statement { color: #800000; font-weight: bold; }
-#windows-nt-light .PreProc { color: #808000; }
-#windows-nt-light .Number { color: #ffff00; }
-#windows-nt-light .Operator { color: #808080; }
-#windows-nt-light .String { color: #008000; }
-#windows-nt-light .Comment { color: #c0c0c0; }
-#windows-nt-light .Conditional { color: #800080; }
+#base16-windows-nt-light pre { white-space: pre-wrap; font-family: monospace; color: #808080; background-color: #ffffff; }
+#base16-windows-nt-light pre { font-family: monospace; color: #808080; background-color: #ffffff; }
+#base16-windows-nt-light * { font-size: 1em; }
+#base16-windows-nt-light .Special { color: #008080; }
+#base16-windows-nt-light .Identifier { color: #800000; }
+#base16-windows-nt-light .Statement { color: #800000; font-weight: bold; }
+#base16-windows-nt-light .PreProc { color: #808000; }
+#base16-windows-nt-light .Number { color: #ffff00; }
+#base16-windows-nt-light .Operator { color: #808080; }
+#base16-windows-nt-light .String { color: #008000; }
+#base16-windows-nt-light .Comment { color: #c0c0c0; }
+#base16-windows-nt-light .Conditional { color: #800080; }

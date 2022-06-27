@@ -1,12 +1,12 @@
-#vice pre { white-space: pre-wrap; font-family: monospace; color: #8b9cbe; background-color: #17191e; }
-#vice pre { font-family: monospace; color: #8b9cbe; background-color: #17191e; }
-#vice * { font-size: 1em; }
-#vice .Special { color: #8265ff; }
-#vice .Identifier { color: #ff29a8; }
-#vice .Statement { color: #ff29a8; font-weight: bold; }
-#vice .PreProc { color: #f0ffaa; }
-#vice .Number { color: #85ffe0; }
-#vice .Operator { color: #8b9cbe; }
-#vice .String { color: #0badff; }
-#vice .Comment { color: #383a47; }
-#vice .Conditional { color: #00f6d9; }
+#base16-vice pre { white-space: pre-wrap; font-family: monospace; color: #8b9cbe; background-color: #17191e; }
+#base16-vice pre { font-family: monospace; color: #8b9cbe; background-color: #17191e; }
+#base16-vice * { font-size: 1em; }
+#base16-vice .Special { color: #8265ff; }
+#base16-vice .Identifier { color: #ff29a8; }
+#base16-vice .Statement { color: #ff29a8; font-weight: bold; }
+#base16-vice .PreProc { color: #f0ffaa; }
+#base16-vice .Number { color: #85ffe0; }
+#base16-vice .Operator { color: #8b9cbe; }
+#base16-vice .String { color: #0badff; }
+#base16-vice .Comment { color: #383a47; }
+#base16-vice .Conditional { color: #00f6d9; }

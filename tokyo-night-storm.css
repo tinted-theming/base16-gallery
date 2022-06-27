@@ -1,12 +1,12 @@
-#tokyo-night-storm pre { white-space: pre-wrap; font-family: monospace; color: #a9b1d6; background-color: #24283b; }
-#tokyo-night-storm pre { font-family: monospace; color: #a9b1d6; background-color: #24283b; }
-#tokyo-night-storm * { font-size: 1em; }
-#tokyo-night-storm .Special { color: #b4f9f8; }
-#tokyo-night-storm .Identifier { color: #c0caf5; }
-#tokyo-night-storm .Statement { color: #c0caf5; font-weight: bold; }
-#tokyo-night-storm .PreProc { color: #0db9d7; }
-#tokyo-night-storm .Number { color: #a9b1d6; }
-#tokyo-night-storm .Operator { color: #a9b1d6; }
-#tokyo-night-storm .String { color: #9ece6a; }
-#tokyo-night-storm .Comment { color: #444b6a; }
-#tokyo-night-storm .Conditional { color: #bb9af7; }
+#base16-tokyo-night-storm pre { white-space: pre-wrap; font-family: monospace; color: #a9b1d6; background-color: #24283b; }
+#base16-tokyo-night-storm pre { font-family: monospace; color: #a9b1d6; background-color: #24283b; }
+#base16-tokyo-night-storm * { font-size: 1em; }
+#base16-tokyo-night-storm .Special { color: #b4f9f8; }
+#base16-tokyo-night-storm .Identifier { color: #c0caf5; }
+#base16-tokyo-night-storm .Statement { color: #c0caf5; font-weight: bold; }
+#base16-tokyo-night-storm .PreProc { color: #0db9d7; }
+#base16-tokyo-night-storm .Number { color: #a9b1d6; }
+#base16-tokyo-night-storm .Operator { color: #a9b1d6; }
+#base16-tokyo-night-storm .String { color: #9ece6a; }
+#base16-tokyo-night-storm .Comment { color: #444b6a; }
+#base16-tokyo-night-storm .Conditional { color: #bb9af7; }

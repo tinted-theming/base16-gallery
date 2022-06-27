@@ -1,12 +1,12 @@
-#helios pre { white-space: pre-wrap; font-family: monospace; color: #d5d5d5; background-color: #1d2021; }
-#helios pre { font-family: monospace; color: #d5d5d5; background-color: #1d2021; }
-#helios * { font-size: 1em; }
-#helios .Special { color: #1ba595; }
-#helios .Identifier { color: #d72638; }
-#helios .Statement { color: #d72638; font-weight: bold; }
-#helios .PreProc { color: #f19d1a; }
-#helios .Number { color: #eb8413; }
-#helios .Operator { color: #d5d5d5; }
-#helios .String { color: #88b92d; }
-#helios .Comment { color: #6f7579; }
-#helios .Conditional { color: #be4264; }
+#base16-helios pre { white-space: pre-wrap; font-family: monospace; color: #d5d5d5; background-color: #1d2021; }
+#base16-helios pre { font-family: monospace; color: #d5d5d5; background-color: #1d2021; }
+#base16-helios * { font-size: 1em; }
+#base16-helios .Special { color: #1ba595; }
+#base16-helios .Identifier { color: #d72638; }
+#base16-helios .Statement { color: #d72638; font-weight: bold; }
+#base16-helios .PreProc { color: #f19d1a; }
+#base16-helios .Number { color: #eb8413; }
+#base16-helios .Operator { color: #d5d5d5; }
+#base16-helios .String { color: #88b92d; }
+#base16-helios .Comment { color: #6f7579; }
+#base16-helios .Conditional { color: #be4264; }

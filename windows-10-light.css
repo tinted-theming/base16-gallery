@@ -1,12 +1,12 @@
-#windows-10-light pre { white-space: pre-wrap; font-family: monospace; color: #767676; background-color: #f2f2f2; }
-#windows-10-light pre { font-family: monospace; color: #767676; background-color: #f2f2f2; }
-#windows-10-light * { font-size: 1em; }
-#windows-10-light .Special { color: #3a96dd; }
-#windows-10-light .Identifier { color: #c50f1f; }
-#windows-10-light .Statement { color: #c50f1f; font-weight: bold; }
-#windows-10-light .PreProc { color: #c19c00; }
-#windows-10-light .Number { color: #f9f1a5; }
-#windows-10-light .Operator { color: #767676; }
-#windows-10-light .String { color: #13a10e; }
-#windows-10-light .Comment { color: #cccccc; }
-#windows-10-light .Conditional { color: #881798; }
+#base16-windows-10-light pre { white-space: pre-wrap; font-family: monospace; color: #767676; background-color: #f2f2f2; }
+#base16-windows-10-light pre { font-family: monospace; color: #767676; background-color: #f2f2f2; }
+#base16-windows-10-light * { font-size: 1em; }
+#base16-windows-10-light .Special { color: #3a96dd; }
+#base16-windows-10-light .Identifier { color: #c50f1f; }
+#base16-windows-10-light .Statement { color: #c50f1f; font-weight: bold; }
+#base16-windows-10-light .PreProc { color: #c19c00; }
+#base16-windows-10-light .Number { color: #f9f1a5; }
+#base16-windows-10-light .Operator { color: #767676; }
+#base16-windows-10-light .String { color: #13a10e; }
+#base16-windows-10-light .Comment { color: #cccccc; }
+#base16-windows-10-light .Conditional { color: #881798; }

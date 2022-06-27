@@ -1,12 +1,12 @@
-#gruvbox-material-light-soft pre { white-space: pre-wrap; font-family: monospace; color: #654735; background-color: #f2e5bc; }
-#gruvbox-material-light-soft pre { font-family: monospace; color: #654735; background-color: #f2e5bc; }
-#gruvbox-material-light-soft * { font-size: 1em; }
-#gruvbox-material-light-soft .Special { color: #4c7a5d; }
-#gruvbox-material-light-soft .Identifier { color: #c14a4a; }
-#gruvbox-material-light-soft .Statement { color: #c14a4a; font-weight: bold; }
-#gruvbox-material-light-soft .PreProc { color: #b47109; }
-#gruvbox-material-light-soft .Number { color: #c35e0a; }
-#gruvbox-material-light-soft .Operator { color: #654735; }
-#gruvbox-material-light-soft .String { color: #6c782e; }
-#gruvbox-material-light-soft .Comment { color: #a89984; }
-#gruvbox-material-light-soft .Conditional { color: #945e80; }
+#base16-gruvbox-material-light-soft pre { white-space: pre-wrap; font-family: monospace; color: #654735; background-color: #f2e5bc; }
+#base16-gruvbox-material-light-soft pre { font-family: monospace; color: #654735; background-color: #f2e5bc; }
+#base16-gruvbox-material-light-soft * { font-size: 1em; }
+#base16-gruvbox-material-light-soft .Special { color: #4c7a5d; }
+#base16-gruvbox-material-light-soft .Identifier { color: #c14a4a; }
+#base16-gruvbox-material-light-soft .Statement { color: #c14a4a; font-weight: bold; }
+#base16-gruvbox-material-light-soft .PreProc { color: #b47109; }
+#base16-gruvbox-material-light-soft .Number { color: #c35e0a; }
+#base16-gruvbox-material-light-soft .Operator { color: #654735; }
+#base16-gruvbox-material-light-soft .String { color: #6c782e; }
+#base16-gruvbox-material-light-soft .Comment { color: #a89984; }
+#base16-gruvbox-material-light-soft .Conditional { color: #945e80; }
