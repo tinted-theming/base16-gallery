@@ -33,6 +33,20 @@
       flex-grow: 1;
       height: 30px;
     }
+    .content {
+      position: relative;
+    }
+    input[type="checkbox"] {
+      top: 10px;
+      right: 10px;
+      position: absolute;
+    }
+    input[type="checkbox"]:not(:checked) + pre {
+      display: none;
+    }
+    input[type="checkbox"]:checked + pre + pre {
+      display: none;
+    }
     </style>
   </head>
   <body>
@@ -46,6 +60,8 @@
       <% colorschemes.each do |colorscheme| %>
         <div class="col-4" id="base16-<%= colorscheme %>">
           <div class="content">
+            <input type="checkbox" />
+            <pre><code><%= File.read("base16-schemes/#{colorscheme}.yaml") %></code></pre>
             <%= File.read("out/#{colorscheme}.html") %>
           </div>
           <div class="pallete">
