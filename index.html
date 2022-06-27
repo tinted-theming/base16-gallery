@@ -3259,8 +3259,12 @@
     h1 {
       font-family: Lobster, cursive;
     }
+    .content > pre::-webkit-scrollbar {
+      display: none;
+    }
     .content > pre {
-      padding: 10px;
+      scrollbar-width: none;
+      padding: 20px;
       height: 300px;
       overflow-y: scroll;
       box-shadow: 5px 5px 10px #333;
