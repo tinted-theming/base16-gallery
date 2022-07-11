@@ -71,22 +71,22 @@
           <div class="pallete">
             <% require 'yaml' %>
             <% pallete = YAML.load_file("base16-schemes/#{colorscheme}.yaml") %>
-            <div title="#<%= pallete['base00'] %>" style="background-color: #<%= pallete['base00'] %>;"></div>
-            <div title="#<%= pallete['base01'] %>" style="background-color: #<%= pallete['base01'] %>;"></div>
-            <div title="#<%= pallete['base02'] %>" style="background-color: #<%= pallete['base02'] %>;"></div>
-            <div title="#<%= pallete['base03'] %>" style="background-color: #<%= pallete['base03'] %>;"></div>
-            <div title="#<%= pallete['base04'] %>" style="background-color: #<%= pallete['base04'] %>;"></div>
-            <div title="#<%= pallete['base05'] %>" style="background-color: #<%= pallete['base05'] %>;"></div>
-            <div title="#<%= pallete['base06'] %>" style="background-color: #<%= pallete['base06'] %>;"></div>
-            <div title="#<%= pallete['base07'] %>" style="background-color: #<%= pallete['base07'] %>;"></div>
-            <div title="#<%= pallete['base08'] %>" style="background-color: #<%= pallete['base08'] %>;"></div>
-            <div title="#<%= pallete['base09'] %>" style="background-color: #<%= pallete['base09'] %>;"></div>
-            <div title="#<%= pallete['base0A'] %>" style="background-color: #<%= pallete['base0A'] %>;"></div>
-            <div title="#<%= pallete['base0B'] %>" style="background-color: #<%= pallete['base0B'] %>;"></div>
-            <div title="#<%= pallete['base0C'] %>" style="background-color: #<%= pallete['base0C'] %>;"></div>
-            <div title="#<%= pallete['base0D'] %>" style="background-color: #<%= pallete['base0D'] %>;"></div>
-            <div title="#<%= pallete['base0E'] %>" style="background-color: #<%= pallete['base0E'] %>;"></div>
-            <div title="#<%= pallete['base0F'] %>" style="background-color: #<%= pallete['base0F'] %>;"></div>
+            <div title="<%= pallete['base00'] %>" style="background-color: <%= pallete['base00'] %>;"></div>
+            <div title="<%= pallete['base01'] %>" style="background-color: <%= pallete['base01'] %>;"></div>
+            <div title="<%= pallete['base02'] %>" style="background-color: <%= pallete['base02'] %>;"></div>
+            <div title="<%= pallete['base03'] %>" style="background-color: <%= pallete['base03'] %>;"></div>
+            <div title="<%= pallete['base04'] %>" style="background-color: <%= pallete['base04'] %>;"></div>
+            <div title="<%= pallete['base05'] %>" style="background-color: <%= pallete['base05'] %>;"></div>
+            <div title="<%= pallete['base06'] %>" style="background-color: <%= pallete['base06'] %>;"></div>
+            <div title="<%= pallete['base07'] %>" style="background-color: <%= pallete['base07'] %>;"></div>
+            <div title="<%= pallete['base08'] %>" style="background-color: <%= pallete['base08'] %>;"></div>
+            <div title="<%= pallete['base09'] %>" style="background-color: <%= pallete['base09'] %>;"></div>
+            <div title="<%= pallete['base0A'] %>" style="background-color: <%= pallete['base0A'] %>;"></div>
+            <div title="<%= pallete['base0B'] %>" style="background-color: <%= pallete['base0B'] %>;"></div>
+            <div title="<%= pallete['base0C'] %>" style="background-color: <%= pallete['base0C'] %>;"></div>
+            <div title="<%= pallete['base0D'] %>" style="background-color: <%= pallete['base0D'] %>;"></div>
+            <div title="<%= pallete['base0E'] %>" style="background-color: <%= pallete['base0E'] %>;"></div>
+            <div title="<%= pallete['base0F'] %>" style="background-color: <%= pallete['base0F'] %>;"></div>
           </div>
           <div class="title text-center">
             <%= colorscheme %>
