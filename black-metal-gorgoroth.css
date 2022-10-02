@@ -1,0 +1,12 @@
+#base16-black-metal-gorgoroth pre { white-space: pre-wrap; font-family: monospace; color: #c1c1c1; background-color: #000000; }
+#base16-black-metal-gorgoroth pre { font-family: monospace; color: #c1c1c1; background-color: #000000; }
+#base16-black-metal-gorgoroth * { font-size: 1em; }
+#base16-black-metal-gorgoroth .Special { color: #aaaaaa; }
+#base16-black-metal-gorgoroth .Identifier { color: #5f8787; }
+#base16-black-metal-gorgoroth .Statement { color: #5f8787; font-weight: bold; }
+#base16-black-metal-gorgoroth .PreProc { color: #8c7f70; }
+#base16-black-metal-gorgoroth .Number { color: #aaaaaa; }
+#base16-black-metal-gorgoroth .Operator { color: #c1c1c1; }
+#base16-black-metal-gorgoroth .String { color: #9b8d7f; }
+#base16-black-metal-gorgoroth .Comment { color: #333333; }
+#base16-black-metal-gorgoroth .Conditional { color: #999999; }

@@ -1,0 +1,12 @@
+#base16-darcula pre { white-space: pre-wrap; font-family: monospace; color: #a9b7c6; background-color: #2b2b2b; }
+#base16-darcula pre { font-family: monospace; color: #a9b7c6; background-color: #2b2b2b; }
+#base16-darcula * { font-size: 1em; }
+#base16-darcula .Special { color: #629755; }
+#base16-darcula .Identifier { color: #4eade5; }
+#base16-darcula .Statement { color: #4eade5; font-weight: bold; }
+#base16-darcula .PreProc { color: #bbb529; }
+#base16-darcula .Number { color: #689757; }
+#base16-darcula .Operator { color: #a9b7c6; }
+#base16-darcula .String { color: #6a8759; }
+#base16-darcula .Comment { color: #606366; }
+#base16-darcula .Conditional { color: #cc7832; }
