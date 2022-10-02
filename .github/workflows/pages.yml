@@ -13,9 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
+      - name: Enable Brew
+        run: echo "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin" >> $GITHUB_PATH
 
       - name: Setup Vim and Ruby
-        run: sudo apt-get install -y ruby vim
+        run: brew install ruby vim
   
       - name: Build
         run: bash build.sh
