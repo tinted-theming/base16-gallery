@@ -6,10 +6,10 @@ rm -rf out
 mkdir out
 
 rm -rf base16-vim
-git clone --depth=1 https://github.com/base16-project/base16-vim
+git clone --depth=1 https://github.com/tinted-theming/base16-vim
 
 rm -rf base16-schemes
-git clone --depth=1 https://github.com/base16-project/base16-schemes
+git clone --depth=1 https://github.com/tinted-theming/base16-schemes
 
 export COLORSCHEMES=($(ls base16-schemes/ | grep yaml | sed 's/\..*$//'))
 
