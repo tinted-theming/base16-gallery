@@ -1,7 +1,7 @@
 # Base16 Gallery 
 
-https://base16-project.github.io/base16-gallery
+https://tinted-theming.github.io/tinted-gallery
 
 This gallery is a collection of base16 themes maintained by
-[base16-project](https://github.com/base16-project). The software
+[tinted-theming](https://github.com/tinted-theming). The software
 license of `build.sh` is CC0.
