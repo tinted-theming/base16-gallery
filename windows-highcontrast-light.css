@@ -1,12 +1,12 @@
 #base16-windows-highcontrast-light pre { white-space: pre-wrap; font-family: monospace; color: #545454; background-color: #fcfcfc; }
 #base16-windows-highcontrast-light pre { font-family: monospace; color: #545454; background-color: #fcfcfc; }
 #base16-windows-highcontrast-light * { font-size: 1em; }
-#base16-windows-highcontrast-light .Special { color: #008080; }
-#base16-windows-highcontrast-light .Identifier { color: #800000; }
+#base16-windows-highcontrast-light .Identifier { color: #545454; }
 #base16-windows-highcontrast-light .Statement { color: #800000; font-weight: bold; }
-#base16-windows-highcontrast-light .PreProc { color: #808000; }
+#base16-windows-highcontrast-light .Comment { color: #c0c0c0; font-style: italic; }
 #base16-windows-highcontrast-light .Number { color: #fcfc54; }
-#base16-windows-highcontrast-light .Operator { color: #545454; }
 #base16-windows-highcontrast-light .String { color: #008000; }
-#base16-windows-highcontrast-light .Comment { color: #c0c0c0; }
-#base16-windows-highcontrast-light -->
+#base16-windows-highcontrast-light .Conditional { color: #800080; }
+#base16-windows-highcontrast-light .Operator { color: #008080; }
+#base16-windows-highcontrast-light .PreProc { color: #808000; }
+#base16-windows-highcontrast-light .Special { color: #008080; }

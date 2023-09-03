@@ -1,12 +1,12 @@
 #base16-atelier-seaside-light pre { white-space: pre-wrap; font-family: monospace; color: #5e6e5e; background-color: #f4fbf4; }
 #base16-atelier-seaside-light pre { font-family: monospace; color: #5e6e5e; background-color: #f4fbf4; }
 #base16-atelier-seaside-light * { font-size: 1em; }
-#base16-atelier-seaside-light .Special { color: #1999b3; }
-#base16-atelier-seaside-light .Identifier { color: #e6193c; }
+#base16-atelier-seaside-light .Identifier { color: #5e6e5e; }
 #base16-atelier-seaside-light .Statement { color: #e6193c; font-weight: bold; }
-#base16-atelier-seaside-light .PreProc { color: #98981b; }
+#base16-atelier-seaside-light .Comment { color: #809980; font-style: italic; }
 #base16-atelier-seaside-light .Number { color: #87711d; }
-#base16-atelier-seaside-light .Operator { color: #5e6e5e; }
 #base16-atelier-seaside-light .String { color: #29a329; }
-#base16-atelier-seaside-light .Comment { color: #809980; }
-#base16-atelier-seaside-light -->
+#base16-atelier-seaside-light .Conditional { color: #ad2bee; }
+#base16-atelier-seaside-light .Operator { color: #1999b3; }
+#base16-atelier-seaside-light .PreProc { color: #98981b; }
+#base16-atelier-seaside-light .Special { color: #1999b3; }

@@ -1,12 +1,12 @@
 #base16-tokyo-night-light pre { white-space: pre-wrap; font-family: monospace; color: #343b59; background-color: #d5d6db; }
 #base16-tokyo-night-light pre { font-family: monospace; color: #343b59; background-color: #d5d6db; }
 #base16-tokyo-night-light * { font-size: 1em; }
-#base16-tokyo-night-light .Special { color: #3e6968; }
-#base16-tokyo-night-light .Identifier { color: #343b58; }
+#base16-tokyo-night-light .Identifier { color: #343b59; }
 #base16-tokyo-night-light .Statement { color: #343b58; font-weight: bold; }
-#base16-tokyo-night-light .PreProc { color: #166775; }
+#base16-tokyo-night-light .Comment { color: #9699a3; font-style: italic; }
 #base16-tokyo-night-light .Number { color: #965027; }
-#base16-tokyo-night-light .Operator { color: #343b59; }
 #base16-tokyo-night-light .String { color: #485e30; }
-#base16-tokyo-night-light .Comment { color: #9699a3; }
-#base16-tokyo-night-light -->
+#base16-tokyo-night-light .Conditional { color: #5a4a78; }
+#base16-tokyo-night-light .Operator { color: #3e6968; }
+#base16-tokyo-night-light .PreProc { color: #166775; }
+#base16-tokyo-night-light .Special { color: #3e6968; }
