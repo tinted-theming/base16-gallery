@@ -3,10 +3,10 @@
 #base16-gruvbox-material-light-hard * { font-size: 1em; }
 #base16-gruvbox-material-light-hard .Identifier { color: #654735; }
 #base16-gruvbox-material-light-hard .Statement { color: #c14a4a; font-weight: bold; }
-#base16-gruvbox-material-light-hard .Comment { color: #a89984; font-style: italic; }
-#base16-gruvbox-material-light-hard .Number { color: #c35e0a; }
+#base16-gruvbox-material-light-hard .PreProc { color: #b47109; }
 #base16-gruvbox-material-light-hard .String { color: #6c782e; }
 #base16-gruvbox-material-light-hard .Conditional { color: #945e80; }
+#base16-gruvbox-material-light-hard .Number { color: #c35e0a; }
 #base16-gruvbox-material-light-hard .Operator { color: #4c7a5d; }
-#base16-gruvbox-material-light-hard .PreProc { color: #b47109; }
+#base16-gruvbox-material-light-hard .Comment { color: #a89984; font-style: italic; }
 #base16-gruvbox-material-light-hard .Special { color: #4c7a5d; }

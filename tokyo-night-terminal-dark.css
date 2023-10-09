@@ -3,10 +3,10 @@
 #base16-tokyo-night-terminal-dark * { font-size: 1em; }
 #base16-tokyo-night-terminal-dark .Identifier { color: #787c99; }
 #base16-tokyo-night-terminal-dark .Statement { color: #f7768e; font-weight: bold; }
-#base16-tokyo-night-terminal-dark .Comment { color: #444b6a; font-style: italic; }
-#base16-tokyo-night-terminal-dark .Number { color: #ff9e64; }
+#base16-tokyo-night-terminal-dark .PreProc { color: #e0af68; }
 #base16-tokyo-night-terminal-dark .String { color: #41a6b5; }
 #base16-tokyo-night-terminal-dark .Conditional { color: #bb9af7; }
+#base16-tokyo-night-terminal-dark .Number { color: #ff9e64; }
 #base16-tokyo-night-terminal-dark .Operator { color: #7dcfff; }
-#base16-tokyo-night-terminal-dark .PreProc { color: #e0af68; }
+#base16-tokyo-night-terminal-dark .Comment { color: #444b6a; font-style: italic; }
 #base16-tokyo-night-terminal-dark .Special { color: #7dcfff; }

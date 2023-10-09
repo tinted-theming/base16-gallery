@@ -3,10 +3,10 @@
 #base16-atelier-plateau-light * { font-size: 1em; }
 #base16-atelier-plateau-light .Identifier { color: #585050; }
 #base16-atelier-plateau-light .Statement { color: #ca4949; font-weight: bold; }
-#base16-atelier-plateau-light .Comment { color: #7e7777; font-style: italic; }
-#base16-atelier-plateau-light .Number { color: #b45a3c; }
+#base16-atelier-plateau-light .PreProc { color: #a06e3b; }
 #base16-atelier-plateau-light .String { color: #4b8b8b; }
 #base16-atelier-plateau-light .Conditional { color: #8464c4; }
+#base16-atelier-plateau-light .Number { color: #b45a3c; }
 #base16-atelier-plateau-light .Operator { color: #5485b6; }
-#base16-atelier-plateau-light .PreProc { color: #a06e3b; }
+#base16-atelier-plateau-light .Comment { color: #7e7777; font-style: italic; }
 #base16-atelier-plateau-light .Special { color: #5485b6; }
