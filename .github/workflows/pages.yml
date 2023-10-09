@@ -13,11 +13,8 @@ jobs:
       - name: Fetch the repository code
         uses: actions/checkout@v3
 
-      - name: Enable Brew
-        run: echo "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin" >> $GITHUB_PATH
-
       - name: Setup Vim and Ruby
-        run: brew install ruby vim
+        run: sudo apt install -y ruby vim
   
       - name: Build
         run: bash build.sh
