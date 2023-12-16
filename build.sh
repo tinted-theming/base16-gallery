@@ -8,10 +8,10 @@ mkdir out
 rm -rf base16-vim
 git clone --depth=1 https://github.com/tinted-theming/base16-vim
 
-rm -rf base16-schemes
-git clone --depth=1 https://github.com/tinted-theming/base16-schemes
+rm -rf schemes
+git clone --depth=1 https://github.com/tinted-theming/schemes
 
-export COLORSCHEMES=($(ls base16-schemes/ | grep yaml | sed 's/\..*$//'))
+export COLORSCHEMES=($(ls schemes/base16/ | grep yaml | sed 's/\..*$//'))
 
 for COLORSCHEME in ${COLORSCHEMES[@]}; do
   echo $COLORSCHEME
