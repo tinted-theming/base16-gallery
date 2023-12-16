@@ -29,7 +29,7 @@ for COLORSCHEME in ${COLORSCHEMES[@]}; do
     | sed "3,14!d;s/body/pre/;s/^/#base16-$COLORSCHEME /" \
     > out/$COLORSCHEME.css
 
-  grep -Pzo "(?s)<pre id='vimCodeElement'>.*</pre>" $0.html \
+  awk "/<pre id='vimCodeElement'>/,/<\/pre>/" $0.html \
     > out/$COLORSCHEME.html
 
   rm -f $0.html
