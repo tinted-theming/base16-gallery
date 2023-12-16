@@ -1,0 +1,12 @@
+#base16-tarot pre { white-space: pre-wrap; font-family: monospace; color: #aa556f; background-color: #0e091d; }
+#base16-tarot pre { font-family: monospace; color: #aa556f; background-color: #0e091d; }
+#base16-tarot * { font-size: 1em; }
+#base16-tarot .Identifier { color: #aa556f; }
+#base16-tarot .Statement { color: #c53253; font-weight: bold; }
+#base16-tarot .PreProc { color: #ff6565; }
+#base16-tarot .String { color: #a68e5a; }
+#base16-tarot .Conditional { color: #a45782; }
+#base16-tarot .Number { color: #ea4d60; }
+#base16-tarot .Operator { color: #8c9785; }
+#base16-tarot .Comment { color: #74316b; font-style: italic; }
+#base16-tarot .Special { color: #8c9785; }
