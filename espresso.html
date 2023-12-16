@@ -30,7 +30,7 @@ git clone <span class="Special">--depth</span><span class="Operator">=</span><sp
     <span class="Operator">|</span> <span class="Statement">sed</span> <span class="Operator">&quot;</span><span class="String">3,14!d;s/body/pre/;s/^/#base16-</span><span class="PreProc">$COLORSCHEME</span><span class="String"> /</span><span class="Operator">&quot;</span> \
     <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.css
 
-  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/,/\/pre&gt;/</span><span class="Operator">&quot;</span> <span class="PreProc">$0</span>.html \
+  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/,/&lt;\/pre&gt;/</span><span class="Operator">&quot;</span> <span class="PreProc">$0</span>.html \
     <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.html
 
   <span class="Statement">rm</span> <span class="Conditional">-f</span> <span class="PreProc">$0</span>.html
