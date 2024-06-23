@@ -1,0 +1,12 @@
+#base16-precious-dark-eleven pre { white-space: pre-wrap; font-family: monospace; color: #b8b7b6; background-color: #1c1e20; }
+#base16-precious-dark-eleven pre { font-family: monospace; color: #b8b7b6; background-color: #1c1e20; }
+#base16-precious-dark-eleven * { font-size: 1em; }
+#base16-precious-dark-eleven .Identifier { color: #b8b7b6; }
+#base16-precious-dark-eleven .Statement { color: #ff8782; font-weight: bold; }
+#base16-precious-dark-eleven .PreProc { color: #d0a543; }
+#base16-precious-dark-eleven .String { color: #95b658; }
+#base16-precious-dark-eleven .Conditional { color: #b799fe; }
+#base16-precious-dark-eleven .Number { color: #ea9755; }
+#base16-precious-dark-eleven .Operator { color: #42bda7; }
+#base16-precious-dark-eleven .Comment { color: #858585; font-style: italic; }
+#base16-precious-dark-eleven .Special { color: #42bda7; }

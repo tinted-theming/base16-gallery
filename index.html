@@ -2206,6 +2206,20 @@
 #base16-monokai .Special { color: #a1efe4; }
 
     
+      #base16-moonlight pre { white-space: pre-wrap; font-family: monospace; color: #a3ace1; background-color: #212337; }
+#base16-moonlight pre { font-family: monospace; color: #a3ace1; background-color: #212337; }
+#base16-moonlight * { font-size: 1em; }
+#base16-moonlight .Identifier { color: #a3ace1; }
+#base16-moonlight .Statement { color: #ff5370; font-weight: bold; }
+#base16-moonlight .PreProc { color: #ffc777; }
+#base16-moonlight .String { color: #2df4c0; }
+#base16-moonlight .Conditional { color: #b994f1; }
+#base16-moonlight .Number { color: #f67f81; }
+#base16-moonlight .Operator { color: #04d1f9; }
+#base16-moonlight .Comment { color: #748cd6; font-style: italic; }
+#base16-moonlight .Special { color: #04d1f9; }
+
+    
       #base16-mountain pre { white-space: pre-wrap; font-family: monospace; color: #cacaca; background-color: #0f0f0f; }
 #base16-mountain pre { font-family: monospace; color: #cacaca; background-color: #0f0f0f; }
 #base16-mountain * { font-size: 1em; }
@@ -2512,6 +2526,62 @@
 #base16-porple .Operator { color: #64878f; }
 #base16-porple .Comment { color: #65568a; font-style: italic; }
 #base16-porple .Special { color: #64878f; }
+
+    
+      #base16-precious-dark-eleven pre { white-space: pre-wrap; font-family: monospace; color: #b8b7b6; background-color: #1c1e20; }
+#base16-precious-dark-eleven pre { font-family: monospace; color: #b8b7b6; background-color: #1c1e20; }
+#base16-precious-dark-eleven * { font-size: 1em; }
+#base16-precious-dark-eleven .Identifier { color: #b8b7b6; }
+#base16-precious-dark-eleven .Statement { color: #ff8782; font-weight: bold; }
+#base16-precious-dark-eleven .PreProc { color: #d0a543; }
+#base16-precious-dark-eleven .String { color: #95b658; }
+#base16-precious-dark-eleven .Conditional { color: #b799fe; }
+#base16-precious-dark-eleven .Number { color: #ea9755; }
+#base16-precious-dark-eleven .Operator { color: #42bda7; }
+#base16-precious-dark-eleven .Comment { color: #858585; font-style: italic; }
+#base16-precious-dark-eleven .Special { color: #42bda7; }
+
+    
+      #base16-precious-dark-fifteen pre { white-space: pre-wrap; font-family: monospace; color: #bab9b6; background-color: #23262b; }
+#base16-precious-dark-fifteen pre { font-family: monospace; color: #bab9b6; background-color: #23262b; }
+#base16-precious-dark-fifteen * { font-size: 1em; }
+#base16-precious-dark-fifteen .Identifier { color: #bab9b6; }
+#base16-precious-dark-fifteen .Statement { color: #ff8782; font-weight: bold; }
+#base16-precious-dark-fifteen .PreProc { color: #cfa546; }
+#base16-precious-dark-fifteen .String { color: #95b659; }
+#base16-precious-dark-fifteen .Conditional { color: #b799ff; }
+#base16-precious-dark-fifteen .Number { color: #e99857; }
+#base16-precious-dark-fifteen .Operator { color: #42bda7; }
+#base16-precious-dark-fifteen .Comment { color: #898989; font-style: italic; }
+#base16-precious-dark-fifteen .Special { color: #42bda7; }
+
+    
+      #base16-precious-light-warm pre { white-space: pre-wrap; font-family: monospace; color: #4e5359; background-color: #fff5e5; }
+#base16-precious-light-warm pre { font-family: monospace; color: #4e5359; background-color: #fff5e5; }
+#base16-precious-light-warm * { font-size: 1em; }
+#base16-precious-light-warm .Identifier { color: #4e5359; }
+#base16-precious-light-warm .Statement { color: #b14745; font-weight: bold; }
+#base16-precious-light-warm .PreProc { color: #876500; }
+#base16-precious-light-warm .String { color: #557300; }
+#base16-precious-light-warm .Conditional { color: #7a50c6; }
+#base16-precious-light-warm .Number { color: #a25600; }
+#base16-precious-light-warm .Operator { color: #0e7767; }
+#base16-precious-light-warm .Comment { color: #7f8080; font-style: italic; }
+#base16-precious-light-warm .Special { color: #0e7767; }
+
+    
+      #base16-precious-light-white pre { white-space: pre-wrap; font-family: monospace; color: #555555; background-color: #ffffff; }
+#base16-precious-light-white pre { font-family: monospace; color: #555555; background-color: #ffffff; }
+#base16-precious-light-white * { font-size: 1em; }
+#base16-precious-light-white .Identifier { color: #555555; }
+#base16-precious-light-white .Statement { color: #af4947; font-weight: bold; }
+#base16-precious-light-white .PreProc { color: #876500; }
+#base16-precious-light-white .String { color: #557301; }
+#base16-precious-light-white .Conditional { color: #7b4ecb; }
+#base16-precious-light-white .Number { color: #a0570d; }
+#base16-precious-light-white .Operator { color: #087767; }
+#base16-precious-light-white .Comment { color: #848484; font-style: italic; }
+#base16-precious-light-white .Special { color: #087767; }
 
     
       #base16-primer-dark-dimmed pre { white-space: pre-wrap; font-family: monospace; color: #909dab; background-color: #1c2128; }
@@ -18185,6 +18255,100 @@ erb template.erb <span class="Operator">&gt;</span> out/index.html
           </div>
         </div>
       
+        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6" id="base16-moonlight">
+          <div class="content">
+            <input type="checkbox" />
+            <pre><code># base16 port of the Moonlight color scheme, originally for VSCode.
+# Ported from the Neovim version (https://github.com/shaunsingh/moonlight.nvim).
+system: "base16"
+name: "Moonlight"
+author: "Jeremy Swinarton (https://github.com/jswinarton)"
+variant: "dark"
+palette:
+  base00: "212337"
+  base01: "403c64"
+  base02: "596399"
+  base03: "748cd6"
+  base04: "a1abe0"
+  base05: "a3ace1"
+  base06: "b4a4f4"
+  base07: "ef43fa"
+  base08: "ff5370"
+  base09: "f67f81"
+  base0A: "ffc777"
+  base0B: "2df4c0"
+  base0D: "40ffff"
+  base0C: "04d1f9"
+  base0E: "b994f1"
+  base0F: "ecb2f0"
+</code></pre>
+            <pre id='vimCodeElement'>
+<span class="Comment">#!/bin/bash</span>
+
+<span class="Statement">set</span><span class="Identifier"> </span><span class="Special">-eu</span><span class="Identifier"> pipefail</span>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> out
+<span class="Statement">mkdir</span> out
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> base16-vim
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/base16-vim">https://github.com/tinted-theming/base16-vim</a>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> schemes
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/schemes">https://github.com/tinted-theming/schemes</a>
+
+<span class="Statement">export</span> <span class="Identifier">COLORSCHEMES</span>=<span class="PreProc">($(</span><span class="Statement">ls</span><span class="Special"> schemes/base16/ </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">grep</span><span class="Special"> yaml </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">sed</span><span class="Special"> </span><span class="Operator">'</span><span class="String">s/\..*$//</span><span class="Operator">'</span><span class="PreProc">))</span>
+
+<span class="Statement">for</span> COLORSCHEME <span class="Statement">in</span> <span class="PreProc">${</span><span class="PreProc">COLORSCHEMES</span><span class="PreProc">[</span>@<span class="PreProc">]</span><span class="PreProc">}</span>; <span class="Conditional">do</span>
+  <span class="Statement">echo</span><span class="String"> </span><span class="PreProc">$COLORSCHEME</span>
+
+  vim <span class="Special">-es</span> <span class="Conditional">-u</span> NORC <span class="Conditional">-N</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set termguicolors</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set runtimepath+=base16-vim</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">syntax on</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">&quot;</span><span class="String">colorscheme base16-</span><span class="PreProc">$COLORSCHEME</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">TOhtml</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">wqall</span><span class="Operator">'</span> \
+    <span class="PreProc">$0</span> <span class="Conditional">&gt;</span> /dev/null <span class="Number">2</span><span class="Conditional">&gt;</span><span class="Operator">&amp;</span><span class="Number">1</span>
+
+  <span class="Statement">grep</span> <span class="Special">-Pzo</span> <span class="Operator">'</span><span class="String">(?s)&lt;style&gt;.*&lt;/style&gt;</span><span class="Operator">'</span> <span class="PreProc">$0</span>.html \
+    <span class="Operator">|</span> <span class="Statement">sed</span> <span class="Operator">&quot;</span><span class="String">3,14!d;s/body/pre/;s/^/#base16-</span><span class="PreProc">$COLORSCHEME</span><span class="String"> /</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.css
+
+  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/,/&lt;\/pre&gt;/</span><span class="Operator">&quot;</span> <span class="PreProc">$0</span>.html \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.html
+
+  <span class="Statement">rm</span> <span class="Conditional">-f</span> <span class="PreProc">$0</span>.html
+<span class="Conditional">done</span>
+
+erb template.erb <span class="Operator">&gt;</span> out/index.html
+</pre>
+
+          </div>
+          <div class="pallete">
+            
+            
+            <div title="#212337" style="background-color: #212337;"></div>
+            <div title="#403c64" style="background-color: #403c64;"></div>
+            <div title="#596399" style="background-color: #596399;"></div>
+            <div title="#748cd6" style="background-color: #748cd6;"></div>
+            <div title="#a1abe0" style="background-color: #a1abe0;"></div>
+            <div title="#a3ace1" style="background-color: #a3ace1;"></div>
+            <div title="#b4a4f4" style="background-color: #b4a4f4;"></div>
+            <div title="#ef43fa" style="background-color: #ef43fa;"></div>
+            <div title="#ff5370" style="background-color: #ff5370;"></div>
+            <div title="#f67f81" style="background-color: #f67f81;"></div>
+            <div title="#ffc777" style="background-color: #ffc777;"></div>
+            <div title="#2df4c0" style="background-color: #2df4c0;"></div>
+            <div title="#04d1f9" style="background-color: #04d1f9;"></div>
+            <div title="#40ffff" style="background-color: #40ffff;"></div>
+            <div title="#b994f1" style="background-color: #b994f1;"></div>
+            <div title="#ecb2f0" style="background-color: #ecb2f0;"></div>
+          </div>
+          <div class="title text-center">
+            moonlight
+          </div>
+        </div>
+      
         <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6" id="base16-mountain">
           <div class="content">
             <input type="checkbox" />
@@ -20211,6 +20375,378 @@ erb template.erb <span class="Operator">&gt;</span> out/index.html
           </div>
           <div class="title text-center">
             porple
+          </div>
+        </div>
+      
+        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6" id="base16-precious-dark-eleven">
+          <div class="content">
+            <input type="checkbox" />
+            <pre><code># Sourced from https://github.com/precious-themes/base16-precious-schemes
+system: "base16"
+name: "Precious Dark Eleven"
+author: "4lex4 <4lex49@zoho.com>"
+variant: "dark"
+palette:
+  base00: "1c1e20"
+  base01: "292b2d"
+  base02: "37393a"
+  base03: "858585"
+  base04: "a8a8a7"
+  base05: "b8b7b6"
+  base06: "b8b7b6"
+  base07: "b8b7b6"
+  base08: "ff8782"
+  base09: "ea9755"
+  base0A: "d0a543"
+  base0B: "95b658"
+  base0C: "42bda7"
+  base0D: "68b0ee"
+  base0E: "b799fe"
+  base0F: "f382d8"
+</code></pre>
+            <pre id='vimCodeElement'>
+<span class="Comment">#!/bin/bash</span>
+
+<span class="Statement">set</span><span class="Identifier"> </span><span class="Special">-eu</span><span class="Identifier"> pipefail</span>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> out
+<span class="Statement">mkdir</span> out
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> base16-vim
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/base16-vim">https://github.com/tinted-theming/base16-vim</a>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> schemes
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/schemes">https://github.com/tinted-theming/schemes</a>
+
+<span class="Statement">export</span> <span class="Identifier">COLORSCHEMES</span>=<span class="PreProc">($(</span><span class="Statement">ls</span><span class="Special"> schemes/base16/ </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">grep</span><span class="Special"> yaml </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">sed</span><span class="Special"> </span><span class="Operator">'</span><span class="String">s/\..*$//</span><span class="Operator">'</span><span class="PreProc">))</span>
+
+<span class="Statement">for</span> COLORSCHEME <span class="Statement">in</span> <span class="PreProc">${</span><span class="PreProc">COLORSCHEMES</span><span class="PreProc">[</span>@<span class="PreProc">]</span><span class="PreProc">}</span>; <span class="Conditional">do</span>
+  <span class="Statement">echo</span><span class="String"> </span><span class="PreProc">$COLORSCHEME</span>
+
+  vim <span class="Special">-es</span> <span class="Conditional">-u</span> NORC <span class="Conditional">-N</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set termguicolors</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set runtimepath+=base16-vim</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">syntax on</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">&quot;</span><span class="String">colorscheme base16-</span><span class="PreProc">$COLORSCHEME</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">TOhtml</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">wqall</span><span class="Operator">'</span> \
+    <span class="PreProc">$0</span> <span class="Conditional">&gt;</span> /dev/null <span class="Number">2</span><span class="Conditional">&gt;</span><span class="Operator">&amp;</span><span class="Number">1</span>
+
+  <span class="Statement">grep</span> <span class="Special">-Pzo</span> <span class="Operator">'</span><span class="String">(?s)&lt;style&gt;.*&lt;/style&gt;</span><span class="Operator">'</span> <span class="PreProc">$0</span>.html \
+    <span class="Operator">|</span> <span class="Statement">sed</span> <span class="Operator">&quot;</span><span class="String">3,14!d;s/body/pre/;s/^/#base16-</span><span class="PreProc">$COLORSCHEME</span><span class="String"> /</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.css
+
+  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/,/&lt;\/pre&gt;/</span><span class="Operator">&quot;</span> <span class="PreProc">$0</span>.html \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.html
+
+  <span class="Statement">rm</span> <span class="Conditional">-f</span> <span class="PreProc">$0</span>.html
+<span class="Conditional">done</span>
+
+erb template.erb <span class="Operator">&gt;</span> out/index.html
+</pre>
+
+          </div>
+          <div class="pallete">
+            
+            
+            <div title="#1c1e20" style="background-color: #1c1e20;"></div>
+            <div title="#292b2d" style="background-color: #292b2d;"></div>
+            <div title="#37393a" style="background-color: #37393a;"></div>
+            <div title="#858585" style="background-color: #858585;"></div>
+            <div title="#a8a8a7" style="background-color: #a8a8a7;"></div>
+            <div title="#b8b7b6" style="background-color: #b8b7b6;"></div>
+            <div title="#b8b7b6" style="background-color: #b8b7b6;"></div>
+            <div title="#b8b7b6" style="background-color: #b8b7b6;"></div>
+            <div title="#ff8782" style="background-color: #ff8782;"></div>
+            <div title="#ea9755" style="background-color: #ea9755;"></div>
+            <div title="#d0a543" style="background-color: #d0a543;"></div>
+            <div title="#95b658" style="background-color: #95b658;"></div>
+            <div title="#42bda7" style="background-color: #42bda7;"></div>
+            <div title="#68b0ee" style="background-color: #68b0ee;"></div>
+            <div title="#b799fe" style="background-color: #b799fe;"></div>
+            <div title="#f382d8" style="background-color: #f382d8;"></div>
+          </div>
+          <div class="title text-center">
+            precious-dark-eleven
+          </div>
+        </div>
+      
+        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6" id="base16-precious-dark-fifteen">
+          <div class="content">
+            <input type="checkbox" />
+            <pre><code># Sourced from https://github.com/precious-themes/base16-precious-schemes
+system: "base16"
+name: "Precious Dark Fifteen"
+author: "4lex4 <4lex49@zoho.com>"
+variant: "dark"
+palette:
+  base00: "23262b"
+  base01: "303337"
+  base02: "3e4044"
+  base03: "898989"
+  base04: "abaaa8"
+  base05: "bab9b6"
+  base06: "bab9b6"
+  base07: "bab9b6"
+  base08: "ff8782"
+  base09: "e99857"
+  base0A: "cfa546"
+  base0B: "95b659"
+  base0C: "42bda7"
+  base0D: "66b0ef"
+  base0E: "b799ff"
+  base0F: "f382d8"
+</code></pre>
+            <pre id='vimCodeElement'>
+<span class="Comment">#!/bin/bash</span>
+
+<span class="Statement">set</span><span class="Identifier"> </span><span class="Special">-eu</span><span class="Identifier"> pipefail</span>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> out
+<span class="Statement">mkdir</span> out
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> base16-vim
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/base16-vim">https://github.com/tinted-theming/base16-vim</a>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> schemes
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/schemes">https://github.com/tinted-theming/schemes</a>
+
+<span class="Statement">export</span> <span class="Identifier">COLORSCHEMES</span>=<span class="PreProc">($(</span><span class="Statement">ls</span><span class="Special"> schemes/base16/ </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">grep</span><span class="Special"> yaml </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">sed</span><span class="Special"> </span><span class="Operator">'</span><span class="String">s/\..*$//</span><span class="Operator">'</span><span class="PreProc">))</span>
+
+<span class="Statement">for</span> COLORSCHEME <span class="Statement">in</span> <span class="PreProc">${</span><span class="PreProc">COLORSCHEMES</span><span class="PreProc">[</span>@<span class="PreProc">]</span><span class="PreProc">}</span>; <span class="Conditional">do</span>
+  <span class="Statement">echo</span><span class="String"> </span><span class="PreProc">$COLORSCHEME</span>
+
+  vim <span class="Special">-es</span> <span class="Conditional">-u</span> NORC <span class="Conditional">-N</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set termguicolors</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set runtimepath+=base16-vim</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">syntax on</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">&quot;</span><span class="String">colorscheme base16-</span><span class="PreProc">$COLORSCHEME</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">TOhtml</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">wqall</span><span class="Operator">'</span> \
+    <span class="PreProc">$0</span> <span class="Conditional">&gt;</span> /dev/null <span class="Number">2</span><span class="Conditional">&gt;</span><span class="Operator">&amp;</span><span class="Number">1</span>
+
+  <span class="Statement">grep</span> <span class="Special">-Pzo</span> <span class="Operator">'</span><span class="String">(?s)&lt;style&gt;.*&lt;/style&gt;</span><span class="Operator">'</span> <span class="PreProc">$0</span>.html \
+    <span class="Operator">|</span> <span class="Statement">sed</span> <span class="Operator">&quot;</span><span class="String">3,14!d;s/body/pre/;s/^/#base16-</span><span class="PreProc">$COLORSCHEME</span><span class="String"> /</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.css
+
+  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/,/&lt;\/pre&gt;/</span><span class="Operator">&quot;</span> <span class="PreProc">$0</span>.html \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.html
+
+  <span class="Statement">rm</span> <span class="Conditional">-f</span> <span class="PreProc">$0</span>.html
+<span class="Conditional">done</span>
+
+erb template.erb <span class="Operator">&gt;</span> out/index.html
+</pre>
+
+          </div>
+          <div class="pallete">
+            
+            
+            <div title="#23262b" style="background-color: #23262b;"></div>
+            <div title="#303337" style="background-color: #303337;"></div>
+            <div title="#3e4044" style="background-color: #3e4044;"></div>
+            <div title="#898989" style="background-color: #898989;"></div>
+            <div title="#abaaa8" style="background-color: #abaaa8;"></div>
+            <div title="#bab9b6" style="background-color: #bab9b6;"></div>
+            <div title="#bab9b6" style="background-color: #bab9b6;"></div>
+            <div title="#bab9b6" style="background-color: #bab9b6;"></div>
+            <div title="#ff8782" style="background-color: #ff8782;"></div>
+            <div title="#e99857" style="background-color: #e99857;"></div>
+            <div title="#cfa546" style="background-color: #cfa546;"></div>
+            <div title="#95b659" style="background-color: #95b659;"></div>
+            <div title="#42bda7" style="background-color: #42bda7;"></div>
+            <div title="#66b0ef" style="background-color: #66b0ef;"></div>
+            <div title="#b799ff" style="background-color: #b799ff;"></div>
+            <div title="#f382d8" style="background-color: #f382d8;"></div>
+          </div>
+          <div class="title text-center">
+            precious-dark-fifteen
+          </div>
+        </div>
+      
+        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6" id="base16-precious-light-warm">
+          <div class="content">
+            <input type="checkbox" />
+            <pre><code># Sourced from https://github.com/precious-themes/base16-precious-schemes
+system: "base16"
+name: "Precious Light Warm"
+author: "4lex4 <4lex49@zoho.com>"
+variant: "light"
+palette:
+  base00: "fff5e5"
+  base01: "ece4d6"
+  base02: "d9d3c8"
+  base03: "7f8080"
+  base04: "5d6065"
+  base05: "4e5359"
+  base06: "4e5359"
+  base07: "4e5359"
+  base08: "b14745"
+  base09: "a25600"
+  base0A: "876500"
+  base0B: "557300"
+  base0C: "0e7767"
+  base0D: "246da5"
+  base0E: "7a50c6"
+  base0F: "a83f92"
+</code></pre>
+            <pre id='vimCodeElement'>
+<span class="Comment">#!/bin/bash</span>
+
+<span class="Statement">set</span><span class="Identifier"> </span><span class="Special">-eu</span><span class="Identifier"> pipefail</span>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> out
+<span class="Statement">mkdir</span> out
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> base16-vim
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/base16-vim">https://github.com/tinted-theming/base16-vim</a>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> schemes
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/schemes">https://github.com/tinted-theming/schemes</a>
+
+<span class="Statement">export</span> <span class="Identifier">COLORSCHEMES</span>=<span class="PreProc">($(</span><span class="Statement">ls</span><span class="Special"> schemes/base16/ </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">grep</span><span class="Special"> yaml </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">sed</span><span class="Special"> </span><span class="Operator">'</span><span class="String">s/\..*$//</span><span class="Operator">'</span><span class="PreProc">))</span>
+
+<span class="Statement">for</span> COLORSCHEME <span class="Statement">in</span> <span class="PreProc">${</span><span class="PreProc">COLORSCHEMES</span><span class="PreProc">[</span>@<span class="PreProc">]</span><span class="PreProc">}</span>; <span class="Conditional">do</span>
+  <span class="Statement">echo</span><span class="String"> </span><span class="PreProc">$COLORSCHEME</span>
+
+  vim <span class="Special">-es</span> <span class="Conditional">-u</span> NORC <span class="Conditional">-N</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set termguicolors</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set runtimepath+=base16-vim</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">syntax on</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">&quot;</span><span class="String">colorscheme base16-</span><span class="PreProc">$COLORSCHEME</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">TOhtml</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">wqall</span><span class="Operator">'</span> \
+    <span class="PreProc">$0</span> <span class="Conditional">&gt;</span> /dev/null <span class="Number">2</span><span class="Conditional">&gt;</span><span class="Operator">&amp;</span><span class="Number">1</span>
+
+  <span class="Statement">grep</span> <span class="Special">-Pzo</span> <span class="Operator">'</span><span class="String">(?s)&lt;style&gt;.*&lt;/style&gt;</span><span class="Operator">'</span> <span class="PreProc">$0</span>.html \
+    <span class="Operator">|</span> <span class="Statement">sed</span> <span class="Operator">&quot;</span><span class="String">3,14!d;s/body/pre/;s/^/#base16-</span><span class="PreProc">$COLORSCHEME</span><span class="String"> /</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.css
+
+  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/,/&lt;\/pre&gt;/</span><span class="Operator">&quot;</span> <span class="PreProc">$0</span>.html \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.html
+
+  <span class="Statement">rm</span> <span class="Conditional">-f</span> <span class="PreProc">$0</span>.html
+<span class="Conditional">done</span>
+
+erb template.erb <span class="Operator">&gt;</span> out/index.html
+</pre>
+
+          </div>
+          <div class="pallete">
+            
+            
+            <div title="#fff5e5" style="background-color: #fff5e5;"></div>
+            <div title="#ece4d6" style="background-color: #ece4d6;"></div>
+            <div title="#d9d3c8" style="background-color: #d9d3c8;"></div>
+            <div title="#7f8080" style="background-color: #7f8080;"></div>
+            <div title="#5d6065" style="background-color: #5d6065;"></div>
+            <div title="#4e5359" style="background-color: #4e5359;"></div>
+            <div title="#4e5359" style="background-color: #4e5359;"></div>
+            <div title="#4e5359" style="background-color: #4e5359;"></div>
+            <div title="#b14745" style="background-color: #b14745;"></div>
+            <div title="#a25600" style="background-color: #a25600;"></div>
+            <div title="#876500" style="background-color: #876500;"></div>
+            <div title="#557300" style="background-color: #557300;"></div>
+            <div title="#0e7767" style="background-color: #0e7767;"></div>
+            <div title="#246da5" style="background-color: #246da5;"></div>
+            <div title="#7a50c6" style="background-color: #7a50c6;"></div>
+            <div title="#a83f92" style="background-color: #a83f92;"></div>
+          </div>
+          <div class="title text-center">
+            precious-light-warm
+          </div>
+        </div>
+      
+        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6" id="base16-precious-light-white">
+          <div class="content">
+            <input type="checkbox" />
+            <pre><code># Sourced from https://github.com/precious-themes/base16-precious-schemes
+system: "base16"
+name: "Precious Light White"
+author: "4lex4 <4lex49@zoho.com>"
+variant: "light"
+palette:
+  base00: "ffffff"
+  base01: "ededed"
+  base02: "dbdbdb"
+  base03: "848484"
+  base04: "636363"
+  base05: "555555"
+  base06: "555555"
+  base07: "555555"
+  base08: "af4947"
+  base09: "a0570d"
+  base0A: "876500"
+  base0B: "557301"
+  base0C: "087767"
+  base0D: "186daa"
+  base0E: "7b4ecb"
+  base0F: "a93e93"
+</code></pre>
+            <pre id='vimCodeElement'>
+<span class="Comment">#!/bin/bash</span>
+
+<span class="Statement">set</span><span class="Identifier"> </span><span class="Special">-eu</span><span class="Identifier"> pipefail</span>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> out
+<span class="Statement">mkdir</span> out
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> base16-vim
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/base16-vim">https://github.com/tinted-theming/base16-vim</a>
+
+<span class="Statement">rm</span> <span class="Special">-rf</span> schemes
+git clone <span class="Special">--depth</span><span class="Operator">=</span><span class="Number">1</span> <a href="https://github.com/tinted-theming/schemes">https://github.com/tinted-theming/schemes</a>
+
+<span class="Statement">export</span> <span class="Identifier">COLORSCHEMES</span>=<span class="PreProc">($(</span><span class="Statement">ls</span><span class="Special"> schemes/base16/ </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">grep</span><span class="Special"> yaml </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">sed</span><span class="Special"> </span><span class="Operator">'</span><span class="String">s/\..*$//</span><span class="Operator">'</span><span class="PreProc">))</span>
+
+<span class="Statement">for</span> COLORSCHEME <span class="Statement">in</span> <span class="PreProc">${</span><span class="PreProc">COLORSCHEMES</span><span class="PreProc">[</span>@<span class="PreProc">]</span><span class="PreProc">}</span>; <span class="Conditional">do</span>
+  <span class="Statement">echo</span><span class="String"> </span><span class="PreProc">$COLORSCHEME</span>
+
+  vim <span class="Special">-es</span> <span class="Conditional">-u</span> NORC <span class="Conditional">-N</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set termguicolors</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">set runtimepath+=base16-vim</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">syntax on</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">&quot;</span><span class="String">colorscheme base16-</span><span class="PreProc">$COLORSCHEME</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">TOhtml</span><span class="Operator">'</span> \
+    <span class="Conditional">-c</span> <span class="Operator">'</span><span class="String">wqall</span><span class="Operator">'</span> \
+    <span class="PreProc">$0</span> <span class="Conditional">&gt;</span> /dev/null <span class="Number">2</span><span class="Conditional">&gt;</span><span class="Operator">&amp;</span><span class="Number">1</span>
+
+  <span class="Statement">grep</span> <span class="Special">-Pzo</span> <span class="Operator">'</span><span class="String">(?s)&lt;style&gt;.*&lt;/style&gt;</span><span class="Operator">'</span> <span class="PreProc">$0</span>.html \
+    <span class="Operator">|</span> <span class="Statement">sed</span> <span class="Operator">&quot;</span><span class="String">3,14!d;s/body/pre/;s/^/#base16-</span><span class="PreProc">$COLORSCHEME</span><span class="String"> /</span><span class="Operator">&quot;</span> \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.css
+
+  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/,/&lt;\/pre&gt;/</span><span class="Operator">&quot;</span> <span class="PreProc">$0</span>.html \
+    <span class="Conditional">&gt;</span> out/<span class="PreProc">$COLORSCHEME</span>.html
+
+  <span class="Statement">rm</span> <span class="Conditional">-f</span> <span class="PreProc">$0</span>.html
+<span class="Conditional">done</span>
+
+erb template.erb <span class="Operator">&gt;</span> out/index.html
+</pre>
+
+          </div>
+          <div class="pallete">
+            
+            
+            <div title="#ffffff" style="background-color: #ffffff;"></div>
+            <div title="#ededed" style="background-color: #ededed;"></div>
+            <div title="#dbdbdb" style="background-color: #dbdbdb;"></div>
+            <div title="#848484" style="background-color: #848484;"></div>
+            <div title="#636363" style="background-color: #636363;"></div>
+            <div title="#555555" style="background-color: #555555;"></div>
+            <div title="#555555" style="background-color: #555555;"></div>
+            <div title="#555555" style="background-color: #555555;"></div>
+            <div title="#af4947" style="background-color: #af4947;"></div>
+            <div title="#a0570d" style="background-color: #a0570d;"></div>
+            <div title="#876500" style="background-color: #876500;"></div>
+            <div title="#557301" style="background-color: #557301;"></div>
+            <div title="#087767" style="background-color: #087767;"></div>
+            <div title="#186daa" style="background-color: #186daa;"></div>
+            <div title="#7b4ecb" style="background-color: #7b4ecb;"></div>
+            <div title="#a93e93" style="background-color: #a93e93;"></div>
+          </div>
+          <div class="title text-center">
+            precious-light-white
           </div>
         </div>
       
