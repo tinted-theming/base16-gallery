@@ -2,37 +2,53 @@
 
 set -eu pipefail
 
-rm -rf out
-mkdir out
+setup() {
+  rm -rf out
+  mkdir out
 
-rm -rf base16-vim
-git clone --depth=1 https://github.com/tinted-theming/base16-vim
+  rm -rf tinted-vim
+  git clone --depth=1 https://github.com/tinted-theming/tinted-vim
 
-rm -rf schemes
-git clone --depth=1 https://github.com/tinted-theming/schemes
+  rm -rf schemes
+  git clone --depth=1 https://github.com/tinted-theming/schemes
+}
 
-export COLORSCHEMES=($(ls schemes/base16/ | grep yaml | sed 's/\..*$//'))
+main() {
+  setup
 
-for COLORSCHEME in ${COLORSCHEMES[@]}; do
-  echo $COLORSCHEME
+  colorschemes=($(ls schemes/base16/ | grep yaml | sed 's/\..*$//'))
+  tmpfile="$0.html"
 
   vim -es -u NORC -N \
     -c 'silent! set termguicolors' \
     -c 'silent! set runtimepath+=base16-vim' \
     -c 'silent! syntax on' \
-    -c "silent! colorscheme base16-$COLORSCHEME" \
+    -c "silent! colorscheme base16-${colorschemes[0]}" \
     -c 'silent! TOhtml' \
     -c 'silent! wqa!' \
     $0 > /dev/null 2>&1
+  awk "/<pre id='vimCodeElement'>/{flag=1; next} /<\/pre>/{flag=0} flag" $tmpfile > out/shell.html
 
-  grep -Pzo '(?s)<style>.*</style>' $0.html \
-    | sed "3,14!d;s/body/pre/;s/^/#base16-$COLORSCHEME /" \
-    > out/$COLORSCHEME.css
+  for colorscheme in ${colorschemes[@]}; do
+    echo $colorscheme
 
-  awk "/<pre id='vimCodeElement'>/,/<\/pre>/" $0.html \
-    > out/$COLORSCHEME.html
+    vim -es -u NORC -N \
+      -c 'set termguicolors' \
+      -c 'set runtimepath+=tinted-vim' \
+      -c 'syntax on' \
+      -c "colorscheme base16-$colorscheme" \
+      -c 'TOhtml' \
+      -c 'wqall' \
+      $0 > /dev/null 2>&1
 
-  rm -f $0.html
-done
+    grep -Pzo '(?s)<style>.*</style>' $tmpfile \
+      | sed "3,14!d;s/body/pre/;s/^/#base16-$colorscheme /" \
+      > out/$colorscheme.css
 
-erb template.erb > out/index.html
+    rm -f $tmpfile
+  done
+
+  erb template.erb > out/index.html
+}
+
+main

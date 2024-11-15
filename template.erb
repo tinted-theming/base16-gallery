@@ -1,3 +1,22 @@
+<% 
+  require 'yaml'
+  require 'ostruct'
+  require 'json'
+
+  # Collect paths
+  colorscheme_files = Dir['schemes/base16/*.yaml']
+
+  # Parse each file into an OpenStruct object, including the slug
+  colorschemes = colorscheme_files.map do |file_path|
+    slug = File.basename(file_path, '.yaml')
+    
+    data = YAML.load_file(file_path)
+    data['slug'] ||= slug
+    
+    OpenStruct.new(data)
+  end
+%>
+<!doctype html>
 <html lang="en">
   <head>
     <title>Base16 Gallery</title>
@@ -6,17 +25,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-    <% colorschemes = Dir['schemes/base16/*.yaml'].map{ |s| s.sub(/.*\//, '').sub(/\..*$/, '') } %>
-    <% colorschemes.each do |colorscheme| %>
-      <%= File.read("out/#{colorscheme}.css") %>
-    <% end %>
+      <% colorschemes.each do |colorscheme| %>
+        <%= File.read("out/#{colorscheme.slug}.css") %>
+      <% end %>
+    </style>
+    <style>
     h1 {
       font-family: Lobster, cursive;
     }
-    .content > pre::-webkit-scrollbar {
+    .Scheme-codeBlock::-webkit-scrollbar,
+    .Scheme-meta::-webkit-scrollbar {
       display: none;
     }
-    .content > pre {
+    .Scheme-codeBlock,
+    .Scheme-meta {
       scrollbar-width: none;
       padding: 20px;
       height: 300px;
@@ -24,31 +46,36 @@
       box-shadow: 5px 5px 10px #333;
       border-radius: 5px;
     }
-    .title {
+    .Scheme-codeBlock a {
+      color: inherit;
+      text-decoration: none;
+      pointer-events: none;
+    }
+    .Scheme-title {
       font-size: 1.5em !important;
       padding-bottom: 50px;
     }
-    .pallete {
+    .Scheme-palette {
       justify-content: center;
       display: flex;
       box-shadow: 5px 5px 10px #333;
     }
-    .pallete > * {
+    .Scheme-color {
       flex-grow: 1;
       height: 30px;
     }
-    .content {
+    .Scheme-content {
       position: relative;
     }
-    input[type="checkbox"] {
+    .Scheme-checkbox {
       top: 10px;
       right: 10px;
       position: absolute;
     }
-    input[type="checkbox"]:not(:checked) + pre {
+    .Scheme-checkbox:not(:checked) + pre {
       display: none;
     }
-    input[type="checkbox"]:checked + pre + pre {
+    .Scheme-checkbox:checked + pre + pre {
       display: none;
     }
     </style>
@@ -58,42 +85,184 @@
       <div class="row">
         <h1 class="text-center">Base16 Gallery</h1>
         <p class="text-center">
-          This gallery is generated from <a href="https://github.com/tinted-theming/base16-vim">tinted-theming/base16-vim</a>.</p>
+          This gallery is generated from <a href="https://github.com/tinted-theming/tinted-vim">tinted-theming/tinted-vim</a>.</p>
+      </div>
+      <div>
+        Group by variant: <input id="sort-by-variant" type="checkbox" />
       </div>
       <div class="row" id="gallery">
-      <% colorschemes.each do |colorscheme| %>
-        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6" id="base16-<%= colorscheme %>">
-          <div class="content">
-            <input type="checkbox" />
-            <pre><code><%= File.read("schemes/base16/#{colorscheme}.yaml") %></code></pre>
-            <%= File.read("out/#{colorscheme}.html") %>
+      <% colorschemes.each do |cs| %>
+        <div class="Scheme col-xxl-2 col-lg-3 col-md-4 col-sm-6" id="base16-<%= cs.slug %>" data-scheme-variant="<%= cs.variant %>">
+          <div class="Scheme-content">
+            <input class="Scheme-checkbox" type="checkbox" />
+            <pre class="Scheme-meta"><code><%= File.read("schemes/base16/#{cs.slug}.yaml") %></code></pre>
+            <pre class="Scheme-codeBlock"><code> <%= File.read("out/shell.html") %> </code></pre>
           </div>
-          <div class="pallete">
-            <% require 'yaml' %>
-            <% palette = YAML.load_file("schemes/base16/#{colorscheme}.yaml")['palette'] %>
-            <div title="<%= palette['base00'] %>" style="background-color: <%= palette['base00'] %>;"></div>
-            <div title="<%= palette['base01'] %>" style="background-color: <%= palette['base01'] %>;"></div>
-            <div title="<%= palette['base02'] %>" style="background-color: <%= palette['base02'] %>;"></div>
-            <div title="<%= palette['base03'] %>" style="background-color: <%= palette['base03'] %>;"></div>
-            <div title="<%= palette['base04'] %>" style="background-color: <%= palette['base04'] %>;"></div>
-            <div title="<%= palette['base05'] %>" style="background-color: <%= palette['base05'] %>;"></div>
-            <div title="<%= palette['base06'] %>" style="background-color: <%= palette['base06'] %>;"></div>
-            <div title="<%= palette['base07'] %>" style="background-color: <%= palette['base07'] %>;"></div>
-            <div title="<%= palette['base08'] %>" style="background-color: <%= palette['base08'] %>;"></div>
-            <div title="<%= palette['base09'] %>" style="background-color: <%= palette['base09'] %>;"></div>
-            <div title="<%= palette['base0A'] %>" style="background-color: <%= palette['base0A'] %>;"></div>
-            <div title="<%= palette['base0B'] %>" style="background-color: <%= palette['base0B'] %>;"></div>
-            <div title="<%= palette['base0C'] %>" style="background-color: <%= palette['base0C'] %>;"></div>
-            <div title="<%= palette['base0D'] %>" style="background-color: <%= palette['base0D'] %>;"></div>
-            <div title="<%= palette['base0E'] %>" style="background-color: <%= palette['base0E'] %>;"></div>
-            <div title="<%= palette['base0F'] %>" style="background-color: <%= palette['base0F'] %>;"></div>
+          <div class="Scheme-palette">
+            <div class="Scheme-color" title="<%= cs.palette['base00'] %>" style="background-color: <%= cs.palette['base00'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base01'] %>" style="background-color: <%= cs.palette['base01'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base02'] %>" style="background-color: <%= cs.palette['base02'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base03'] %>" style="background-color: <%= cs.palette['base03'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base04'] %>" style="background-color: <%= cs.palette['base04'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base05'] %>" style="background-color: <%= cs.palette['base05'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base06'] %>" style="background-color: <%= cs.palette['base06'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base07'] %>" style="background-color: <%= cs.palette['base07'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base08'] %>" style="background-color: <%= cs.palette['base08'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base09'] %>" style="background-color: <%= cs.palette['base09'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base0A'] %>" style="background-color: <%= cs.palette['base0A'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base0B'] %>" style="background-color: <%= cs.palette['base0B'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base0C'] %>" style="background-color: <%= cs.palette['base0C'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base0D'] %>" style="background-color: <%= cs.palette['base0D'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base0E'] %>" style="background-color: <%= cs.palette['base0E'] %>"></div>
+            <div class="Scheme-color" title="<%= cs.palette['base0F'] %>" style="background-color: <%= cs.palette['base0F'] %>"></div>
           </div>
-          <div class="title text-center">
-            <%= colorscheme %>
+          <div class="Scheme-title text-center">
+            <%= cs.slug %>
           </div>
         </div>
       <% end %>
       </div>
     </div>
+
+    <script>
+      const colorschemes = <%= colorschemes.map(&:to_h).to_json %>;
+      const galleryEl = document.getElementById('gallery');
+      const codeText = {
+        shell: <%= File.read('out/shell.html').to_json %>
+      };
+
+      // Listen for changes to DOM "settings" and re-render
+      document.getElementById('sort-by-variant').addEventListener('change', function() {
+        renderSchemes();
+      });
+
+      // Get settings from DOM
+      function getSettings() {
+        const groupBy = [];
+        const isGroupedByVariant = document.getElementById('sort-by-variant').checked;
+
+        if (isGroupedByVariant) {
+          groupBy.push('variant');
+        }
+
+        return {
+          groupBy,
+        }
+      }
+
+      // Render all schemes to the DOM
+      function renderSchemes() {
+        const { groupBy } = getSettings();
+        const schemes = [...colorschemes];
+
+        emptyGalleryEl();
+
+        if (groupBy.includes('variant')) {
+          schemes.sort((a, b) => {
+            if (a.variant < b.variant) return 1;
+            if (a.variant > b.variant) return -1;
+            return 0;
+          });
+        }
+
+        for (let i = 0; i < schemes.length; i++) {
+          const colorscheme = schemes[i];
+
+          appendSchemeToGalleryEl(colorscheme);
+        }
+      }
+
+      // Clear gallery DOM contents
+      function emptyGalleryEl() {
+        while (gallery.firstChild) {
+          gallery.removeChild(gallery.firstChild);
+        }
+      }
+
+      // Add individual Scheme element to DOM
+      function appendSchemeToGalleryEl(cs) {
+        const schemeDiv = document.createElement('div');
+        schemeDiv.className = 'Scheme col-xxl-2 col-lg-3 col-md-4 col-sm-6 heh';
+        schemeDiv.id = `base16-${cs.slug}`;
+        schemeDiv.setAttribute('data-scheme-variant', cs.variant);
+
+        // Create Scheme-content div
+        const schemeContentDiv = document.createElement('div');
+        schemeContentDiv.className = 'Scheme-content';
+
+        // Add checkbox input
+        const checkbox = document.createElement('input');
+        checkbox.className = 'Scheme-checkbox';
+        checkbox.type = 'checkbox';
+        schemeContentDiv.appendChild(checkbox);
+
+        // Add Scheme-meta pre/code
+        const schemeMetaPre = document.createElement('pre');
+        schemeMetaPre.className = 'Scheme-meta';
+        const schemeMetaCode = document.createElement('code');
+        schemeMetaCode.textContent = `system: ${cs.system}
+slug: ${cs.slug}
+name: ${cs.name}
+author: ${cs.author}
+variant: ${cs.variant}
+palette: 
+  ${cs.palette.base00 ? 'base00: ' + cs.palette.base00 : ''}
+  ${cs.palette.base01 ? 'base01: ' + cs.palette.base01 : ''}
+  ${cs.palette.base02 ? 'base02: ' + cs.palette.base02 : ''}
+  ${cs.palette.base03 ? 'base03: ' + cs.palette.base03 : ''}
+  ${cs.palette.base04 ? 'base04: ' + cs.palette.base04 : ''}
+  ${cs.palette.base05 ? 'base05: ' + cs.palette.base05 : ''}
+  ${cs.palette.base06 ? 'base06: ' + cs.palette.base06 : ''}
+  ${cs.palette.base07 ? 'base07: ' + cs.palette.base07 : ''}
+  ${cs.palette.base08 ? 'base08: ' + cs.palette.base08 : ''}
+  ${cs.palette.base09 ? 'base09: ' + cs.palette.base09 : ''}
+  ${cs.palette.base0A ? 'base0A: ' + cs.palette.base0A : ''}
+  ${cs.palette.base0B ? 'base0B: ' + cs.palette.base0B : ''}
+  ${cs.palette.base0C ? 'base0C: ' + cs.palette.base0C : ''}
+  ${cs.palette.base0D ? 'base0D: ' + cs.palette.base0D : ''}
+  ${cs.palette.base0E ? 'base0E: ' + cs.palette.base0E : ''}
+  ${cs.palette.base0F ? 'base0F: ' + cs.palette.base0F : ''}`
+        schemeMetaPre.appendChild(schemeMetaCode);
+        schemeContentDiv.appendChild(schemeMetaPre);
+
+        // Add Scheme-codeBlock pre/code
+        const schemeCodeBlockPre = document.createElement('pre');
+        schemeCodeBlockPre.className = 'Scheme-codeBlock';
+        const schemeCodeBlockCode = document.createElement('code');
+        schemeCodeBlockCode.innerHTML = codeText.shell;
+        schemeCodeBlockPre.appendChild(schemeCodeBlockCode);
+        schemeContentDiv.appendChild(schemeCodeBlockPre);
+
+        // Append Scheme-content to the main div
+        schemeDiv.appendChild(schemeContentDiv);
+
+        // Create Scheme-palette div
+        const schemePaletteDiv = document.createElement('div');
+        schemePaletteDiv.className = 'Scheme-palette';
+
+        // Add Scheme-color divs for the palette
+        Object.entries(cs.palette).forEach(([key, color]) => {
+          const colorDiv = document.createElement('div');
+          colorDiv.className = 'Scheme-color';
+          colorDiv.title = color;
+          colorDiv.style.backgroundColor = color;
+          schemePaletteDiv.appendChild(colorDiv);
+        });
+
+        // Append Scheme-palette to the main div
+        schemeDiv.appendChild(schemePaletteDiv);
+
+        // Create Scheme-title div
+        const schemeTitleDiv = document.createElement('div');
+        schemeTitleDiv.className = 'Scheme-title text-center';
+        schemeTitleDiv.textContent = cs.slug;
+
+        // Append Scheme-title to the main div
+        schemeDiv.appendChild(schemeTitleDiv);
+
+        // Append the entire structure to the document (or another container)
+        galleryEl.appendChild(schemeDiv);
+      }
+    </script>
   </body>
 </html>
