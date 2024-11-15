@@ -78,6 +78,10 @@
     .Scheme-checkbox:checked + pre + pre {
       display: none;
     }
+    .darkmode {
+      background-color: #333;
+      color: #fff;
+    }
     </style>
   </head>
   <body>
@@ -89,6 +93,9 @@
       </div>
       <div>
         Group by variant: <input id="sort-by-variant" type="checkbox" />
+      </div>
+      <div>
+        Dark mode: <input id="darkmode" type="checkbox" />
       </div>
       <div class="row" id="gallery">
       <% colorschemes.each do |cs| %>
@@ -134,6 +141,18 @@
       // Listen for changes to DOM "settings" and re-render
       document.getElementById('sort-by-variant').addEventListener('change', function() {
         renderSchemes();
+      });
+
+      // Toggle dark mode
+      document.getElementById('darkmode').addEventListener('change', function() {
+        const checkbox = document.getElementById('darkmode');
+        const isChecked = checkbox.checked; // Returns true if checked, false if not
+
+        if (isChecked) {
+          document.body.classList.add('darkmode');
+        } else {
+          document.body.classList.remove('darkmode');
+        }
       });
 
       // Get settings from DOM
