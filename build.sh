@@ -17,12 +17,12 @@ for COLORSCHEME in ${COLORSCHEMES[@]}; do
   echo $COLORSCHEME
 
   vim -es -u NORC -N \
-    -c 'set termguicolors' \
-    -c 'set runtimepath+=base16-vim' \
-    -c 'syntax on' \
-    -c "colorscheme base16-$COLORSCHEME" \
-    -c 'TOhtml' \
-    -c 'wqall' \
+    -c 'silent! set termguicolors' \
+    -c 'silent! set runtimepath+=base16-vim' \
+    -c 'silent! syntax on' \
+    -c "silent! colorscheme base16-$COLORSCHEME" \
+    -c 'silent! TOhtml' \
+    -c 'silent! wqa!' \
     $0 > /dev/null 2>&1
 
   grep -Pzo '(?s)<style>.*</style>' $0.html \
