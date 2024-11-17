@@ -2,9 +2,9 @@
 #base16-mexico-light pre { font-family: monospace; color: #383838; background-color: #f8f8f8; }
 #base16-mexico-light * { font-size: 1em; }
 #base16-mexico-light .Identifier { color: #383838; }
-#base16-mexico-light .Statement { color: #ab4642; font-weight: bold; }
-#base16-mexico-light .PreProc { color: #f79a0e; }
-#base16-mexico-light .String { color: #538947; }
+#base16-mexico-light .Statement { color: #96609e; font-weight: bold; }
+#base16-mexico-light .PreProc { color: #4b8093; }
+#base16-mexico-light .String { color: #538947; font-style: italic; }
 #base16-mexico-light .Conditional { color: #96609e; }
 #base16-mexico-light .Number { color: #dc9656; }
 #base16-mexico-light .Operator { color: #4b8093; }

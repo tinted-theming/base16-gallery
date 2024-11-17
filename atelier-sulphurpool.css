@@ -2,9 +2,9 @@
 #base16-atelier-sulphurpool pre { font-family: monospace; color: #979db4; background-color: #202746; }
 #base16-atelier-sulphurpool * { font-size: 1em; }
 #base16-atelier-sulphurpool .Identifier { color: #979db4; }
-#base16-atelier-sulphurpool .Statement { color: #c94922; font-weight: bold; }
-#base16-atelier-sulphurpool .PreProc { color: #c08b30; }
-#base16-atelier-sulphurpool .String { color: #ac9739; }
+#base16-atelier-sulphurpool .Statement { color: #6679cc; font-weight: bold; }
+#base16-atelier-sulphurpool .PreProc { color: #22a2c9; }
+#base16-atelier-sulphurpool .String { color: #ac9739; font-style: italic; }
 #base16-atelier-sulphurpool .Conditional { color: #6679cc; }
 #base16-atelier-sulphurpool .Number { color: #c76b29; }
 #base16-atelier-sulphurpool .Operator { color: #22a2c9; }

@@ -2,9 +2,9 @@
 #base16-github pre { font-family: monospace; color: #333333; background-color: #ffffff; }
 #base16-github * { font-size: 1em; }
 #base16-github .Identifier { color: #333333; }
-#base16-github .Statement { color: #ed6a43; font-weight: bold; }
-#base16-github .PreProc { color: #795da3; }
-#base16-github .String { color: #183691; }
+#base16-github .Statement { color: #a71d5d; font-weight: bold; }
+#base16-github .PreProc { color: #183691; }
+#base16-github .String { color: #183691; font-style: italic; }
 #base16-github .Conditional { color: #a71d5d; }
 #base16-github .Number { color: #0086b3; }
 #base16-github .Operator { color: #183691; }

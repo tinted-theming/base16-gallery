@@ -2,9 +2,9 @@
 #base16-monokai pre { font-family: monospace; color: #f8f8f2; background-color: #272822; }
 #base16-monokai * { font-size: 1em; }
 #base16-monokai .Identifier { color: #f8f8f2; }
-#base16-monokai .Statement { color: #f92672; font-weight: bold; }
-#base16-monokai .PreProc { color: #f4bf75; }
-#base16-monokai .String { color: #a6e22e; }
+#base16-monokai .Statement { color: #ae81ff; font-weight: bold; }
+#base16-monokai .PreProc { color: #a1efe4; }
+#base16-monokai .String { color: #a6e22e; font-style: italic; }
 #base16-monokai .Conditional { color: #ae81ff; }
 #base16-monokai .Number { color: #fd971f; }
 #base16-monokai .Operator { color: #a1efe4; }

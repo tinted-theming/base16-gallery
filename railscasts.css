@@ -2,9 +2,9 @@
 #base16-railscasts pre { font-family: monospace; color: #e6e1dc; background-color: #2b2b2b; }
 #base16-railscasts * { font-size: 1em; }
 #base16-railscasts .Identifier { color: #e6e1dc; }
-#base16-railscasts .Statement { color: #da4939; font-weight: bold; }
-#base16-railscasts .PreProc { color: #ffc66d; }
-#base16-railscasts .String { color: #a5c261; }
+#base16-railscasts .Statement { color: #b6b3eb; font-weight: bold; }
+#base16-railscasts .PreProc { color: #519f50; }
+#base16-railscasts .String { color: #a5c261; font-style: italic; }
 #base16-railscasts .Conditional { color: #b6b3eb; }
 #base16-railscasts .Number { color: #cc7833; }
 #base16-railscasts .Operator { color: #519f50; }

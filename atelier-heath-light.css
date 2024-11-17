@@ -2,9 +2,9 @@
 #base16-atelier-heath-light pre { font-family: monospace; color: #695d69; background-color: #f7f3f7; }
 #base16-atelier-heath-light * { font-size: 1em; }
 #base16-atelier-heath-light .Identifier { color: #695d69; }
-#base16-atelier-heath-light .Statement { color: #ca402b; font-weight: bold; }
-#base16-atelier-heath-light .PreProc { color: #bb8a35; }
-#base16-atelier-heath-light .String { color: #918b3b; }
+#base16-atelier-heath-light .Statement { color: #7b59c0; font-weight: bold; }
+#base16-atelier-heath-light .PreProc { color: #159393; }
+#base16-atelier-heath-light .String { color: #918b3b; font-style: italic; }
 #base16-atelier-heath-light .Conditional { color: #7b59c0; }
 #base16-atelier-heath-light .Number { color: #a65926; }
 #base16-atelier-heath-light .Operator { color: #159393; }

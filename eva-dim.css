@@ -2,9 +2,9 @@
 #base16-eva-dim pre { font-family: monospace; color: #9fa2a6; background-color: #2a3b4d; }
 #base16-eva-dim * { font-size: 1em; }
 #base16-eva-dim .Identifier { color: #9fa2a6; }
-#base16-eva-dim .Statement { color: #c4676c; font-weight: bold; }
-#base16-eva-dim .PreProc { color: #cfd05d; }
-#base16-eva-dim .String { color: #5de561; }
+#base16-eva-dim .Statement { color: #9c6cd3; font-weight: bold; }
+#base16-eva-dim .PreProc { color: #4b8f77; }
+#base16-eva-dim .String { color: #5de561; font-style: italic; }
 #base16-eva-dim .Conditional { color: #9c6cd3; }
 #base16-eva-dim .Number { color: #ff9966; }
 #base16-eva-dim .Operator { color: #4b8f77; }

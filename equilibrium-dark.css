@@ -2,9 +2,9 @@
 #base16-equilibrium-dark pre { font-family: monospace; color: #afaba2; background-color: #0c1118; }
 #base16-equilibrium-dark * { font-size: 1em; }
 #base16-equilibrium-dark .Identifier { color: #afaba2; }
-#base16-equilibrium-dark .Statement { color: #f04339; font-weight: bold; }
-#base16-equilibrium-dark .PreProc { color: #bb8801; }
-#base16-equilibrium-dark .String { color: #7f8b00; }
+#base16-equilibrium-dark .Statement { color: #6a7fd2; font-weight: bold; }
+#base16-equilibrium-dark .PreProc { color: #00948b; }
+#base16-equilibrium-dark .String { color: #7f8b00; font-style: italic; }
 #base16-equilibrium-dark .Conditional { color: #6a7fd2; }
 #base16-equilibrium-dark .Number { color: #df5923; }
 #base16-equilibrium-dark .Operator { color: #00948b; }

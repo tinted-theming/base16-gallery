@@ -2,9 +2,9 @@
 #base16-summercamp pre { font-family: monospace; color: #736e55; background-color: #1c1810; }
 #base16-summercamp * { font-size: 1em; }
 #base16-summercamp .Identifier { color: #736e55; }
-#base16-summercamp .Statement { color: #e35142; font-weight: bold; }
-#base16-summercamp .PreProc { color: #f2ff27; }
-#base16-summercamp .String { color: #5ceb5a; }
+#base16-summercamp .Statement { color: #ff8080; font-weight: bold; }
+#base16-summercamp .PreProc { color: #5aebbc; }
+#base16-summercamp .String { color: #5ceb5a; font-style: italic; }
 #base16-summercamp .Conditional { color: #ff8080; }
 #base16-summercamp .Number { color: #fba11b; }
 #base16-summercamp .Operator { color: #5aebbc; }
