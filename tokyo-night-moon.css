@@ -1,12 +1,12 @@
 #base16-tokyo-night-moon pre { white-space: pre-wrap; font-family: monospace; color: #3b4261; background-color: #222436; }
 #base16-tokyo-night-moon pre { font-family: monospace; color: #3b4261; background-color: #222436; }
 #base16-tokyo-night-moon * { font-size: 1em; }
-#base16-tokyo-night-moon .Identifier { color: #3b4261; }
-#base16-tokyo-night-moon .Statement { color: #fca7ea; font-weight: bold; }
-#base16-tokyo-night-moon .PreProc { color: #86e1fc; }
-#base16-tokyo-night-moon .String { color: #c3e88d; font-style: italic; }
-#base16-tokyo-night-moon .Conditional { color: #fca7ea; }
+#base16-tokyo-night-moon .String { color: #c3e88d; }
 #base16-tokyo-night-moon .Number { color: #ffc777; }
-#base16-tokyo-night-moon .Operator { color: #86e1fc; }
 #base16-tokyo-night-moon .Comment { color: #636da6; font-style: italic; }
 #base16-tokyo-night-moon .Special { color: #86e1fc; }
+#base16-tokyo-night-moon .Identifier { color: #3b4261; }
+#base16-tokyo-night-moon .Statement { color: #ff757f; font-weight: bold; }
+#base16-tokyo-night-moon .PreProc { color: #ffc777; }
+#base16-tokyo-night-moon .Function { color: #82aaff; }
+#base16-tokyo-night-moon .Conditional { color: #fca7ea; }

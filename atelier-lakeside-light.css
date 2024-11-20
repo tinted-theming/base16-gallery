@@ -1,12 +1,12 @@
 #base16-atelier-lakeside-light pre { white-space: pre-wrap; font-family: monospace; color: #516d7b; background-color: #ebf8ff; }
 #base16-atelier-lakeside-light pre { font-family: monospace; color: #516d7b; background-color: #ebf8ff; }
 #base16-atelier-lakeside-light * { font-size: 1em; }
-#base16-atelier-lakeside-light .Identifier { color: #516d7b; }
-#base16-atelier-lakeside-light .Statement { color: #6b6bb8; font-weight: bold; }
-#base16-atelier-lakeside-light .PreProc { color: #2d8f6f; }
-#base16-atelier-lakeside-light .String { color: #568c3b; font-style: italic; }
-#base16-atelier-lakeside-light .Conditional { color: #6b6bb8; }
+#base16-atelier-lakeside-light .String { color: #568c3b; }
 #base16-atelier-lakeside-light .Number { color: #935c25; }
-#base16-atelier-lakeside-light .Operator { color: #2d8f6f; }
 #base16-atelier-lakeside-light .Comment { color: #7195a8; font-style: italic; }
 #base16-atelier-lakeside-light .Special { color: #2d8f6f; }
+#base16-atelier-lakeside-light .Identifier { color: #516d7b; }
+#base16-atelier-lakeside-light .Statement { color: #d22d72; font-weight: bold; }
+#base16-atelier-lakeside-light .PreProc { color: #8a8a0f; }
+#base16-atelier-lakeside-light .Function { color: #257fad; }
+#base16-atelier-lakeside-light .Conditional { color: #6b6bb8; }

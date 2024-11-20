@@ -1,12 +1,12 @@
 #base16-black-metal-dark-funeral pre { white-space: pre-wrap; font-family: monospace; color: #c1c1c1; background-color: #000000; }
 #base16-black-metal-dark-funeral pre { font-family: monospace; color: #c1c1c1; background-color: #000000; }
 #base16-black-metal-dark-funeral * { font-size: 1em; }
-#base16-black-metal-dark-funeral .Identifier { color: #c1c1c1; }
-#base16-black-metal-dark-funeral .Statement { color: #999999; font-weight: bold; }
-#base16-black-metal-dark-funeral .PreProc { color: #aaaaaa; }
-#base16-black-metal-dark-funeral .String { color: #d0dfee; font-style: italic; }
-#base16-black-metal-dark-funeral .Conditional { color: #999999; }
+#base16-black-metal-dark-funeral .String { color: #d0dfee; }
 #base16-black-metal-dark-funeral .Number { color: #aaaaaa; }
-#base16-black-metal-dark-funeral .Operator { color: #aaaaaa; }
 #base16-black-metal-dark-funeral .Comment { color: #333333; font-style: italic; }
 #base16-black-metal-dark-funeral .Special { color: #aaaaaa; }
+#base16-black-metal-dark-funeral .Identifier { color: #c1c1c1; }
+#base16-black-metal-dark-funeral .Statement { color: #5f8787; font-weight: bold; }
+#base16-black-metal-dark-funeral .PreProc { color: #5f81a5; }
+#base16-black-metal-dark-funeral .Function { color: #888888; }
+#base16-black-metal-dark-funeral .Conditional { color: #999999; }

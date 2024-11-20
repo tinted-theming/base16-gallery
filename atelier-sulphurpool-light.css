@@ -1,12 +1,12 @@
 #base16-atelier-sulphurpool-light pre { white-space: pre-wrap; font-family: monospace; color: #5e6687; background-color: #f5f7ff; }
 #base16-atelier-sulphurpool-light pre { font-family: monospace; color: #5e6687; background-color: #f5f7ff; }
 #base16-atelier-sulphurpool-light * { font-size: 1em; }
-#base16-atelier-sulphurpool-light .Identifier { color: #5e6687; }
-#base16-atelier-sulphurpool-light .Statement { color: #6679cc; font-weight: bold; }
-#base16-atelier-sulphurpool-light .PreProc { color: #22a2c9; }
-#base16-atelier-sulphurpool-light .String { color: #ac9739; font-style: italic; }
-#base16-atelier-sulphurpool-light .Conditional { color: #6679cc; }
+#base16-atelier-sulphurpool-light .String { color: #ac9739; }
 #base16-atelier-sulphurpool-light .Number { color: #c76b29; }
-#base16-atelier-sulphurpool-light .Operator { color: #22a2c9; }
 #base16-atelier-sulphurpool-light .Comment { color: #898ea4; font-style: italic; }
 #base16-atelier-sulphurpool-light .Special { color: #22a2c9; }
+#base16-atelier-sulphurpool-light .Identifier { color: #5e6687; }
+#base16-atelier-sulphurpool-light .Statement { color: #c94922; font-weight: bold; }
+#base16-atelier-sulphurpool-light .PreProc { color: #c08b30; }
+#base16-atelier-sulphurpool-light .Function { color: #3d8fd1; }
+#base16-atelier-sulphurpool-light .Conditional { color: #6679cc; }

@@ -1,0 +1,54 @@
+<span class="Comment">#!/bin/bash</span>
+
+<span class="Statement">set</span><span class="Identifier"> </span><span class="Special">-eu</span><span class="Identifier"> pipefail</span>
+
+<span class="Identifier">setup() {</span>
+  <span class="Statement">rm</span> <span class="Special">-rf</span> out
+  <span class="Statement">mkdir</span> out
+
+  <span class="Statement">rm</span> <span class="Special">-rf</span> tinted-vim
+  git clone <span class="Special">--depth</span><span class="Statement">=</span><span class="Constant">1</span> <a href="https://github.com/tinted-theming/tinted-vim">https://github.com/tinted-theming/tinted-vim</a>
+
+  <span class="Statement">rm</span> <span class="Special">-rf</span> schemes
+  git clone <span class="Special">--depth</span><span class="Statement">=</span><span class="Constant">1</span> <a href="https://github.com/tinted-theming/schemes">https://github.com/tinted-theming/schemes</a>
+<span class="Identifier">}</span>
+
+<span class="Identifier">main() {</span>
+  setup
+
+  <span class="Identifier">colorschemes</span>=<span class="PreProc">($(</span><span class="Statement">ls</span><span class="Special"> schemes/base16/ </span><span class="Statement">|</span><span class="Special"> </span><span class="Statement">grep</span><span class="Special"> yaml </span><span class="Statement">|</span><span class="Special"> </span><span class="Statement">sed</span><span class="Special"> </span><span class="Statement">'</span><span class="Constant">s/\..*$//</span><span class="Statement">'</span><span class="PreProc">))</span>
+  <span class="Identifier">tmpfile</span>=<span class="Statement">&quot;</span><span class="PreProc">$0</span><span class="Constant">.html</span><span class="Statement">&quot;</span>
+
+  vim <span class="Special">-es</span> <span class="Special">-u</span> NORC <span class="Special">-N</span> \
+    <span class="Special">-c</span> <span class="Statement">'</span><span class="Constant">silent! set termguicolors</span><span class="Statement">'</span> \
+    <span class="Special">-c</span> <span class="Statement">'</span><span class="Constant">silent! set runtimepath+=base16-vim</span><span class="Statement">'</span> \
+    <span class="Special">-c</span> <span class="Statement">'</span><span class="Constant">silent! syntax on</span><span class="Statement">'</span> \
+    <span class="Special">-c</span> <span class="Statement">&quot;</span><span class="Constant">silent! colorscheme base16-</span><span class="PreProc">${</span><span class="PreProc">colorschemes</span><span class="PreProc">[</span><span class="Constant">0</span><span class="PreProc">]</span><span class="PreProc">}</span><span class="Statement">&quot;</span> \
+    <span class="Special">-c</span> <span class="Statement">'</span><span class="Constant">silent! TOhtml</span><span class="Statement">'</span> \
+    <span class="Special">-c</span> <span class="Statement">'</span><span class="Constant">silent! wqa!</span><span class="Statement">'</span> \
+    <span class="PreProc">$0</span> <span class="Statement">&gt;</span> /dev/null <span class="Constant">2</span><span class="Statement">&gt;&amp;1</span>
+  awk <span class="Statement">&quot;</span><span class="Constant">/&lt;pre id='vimCodeElement'&gt;/{flag=1; next} /&lt;\/pre&gt;/{flag=0} flag</span><span class="Statement">&quot;</span> <span class="PreProc">$tmpfile</span> <span class="Statement">&gt;</span> out/shell.html
+
+  <span class="Statement">for</span> colorscheme <span class="Statement">in</span> <span class="PreProc">${</span><span class="PreProc">colorschemes</span><span class="PreProc">[</span>@<span class="PreProc">]</span><span class="PreProc">}</span><span class="Statement">;</span> <span class="Statement">do</span>
+    <span class="Statement">echo</span><span class="Constant"> </span><span class="PreProc">$colorscheme</span>
+
+    vim <span class="Special">-es</span> <span class="Statement">-u</span> NORC <span class="Statement">-N</span> \
+      <span class="Statement">-c</span> <span class="Statement">'</span><span class="Constant">set termguicolors</span><span class="Statement">'</span> \
+      <span class="Statement">-c</span> <span class="Statement">'</span><span class="Constant">set runtimepath+=tinted-vim</span><span class="Statement">'</span> \
+      <span class="Statement">-c</span> <span class="Statement">'</span><span class="Constant">syntax on</span><span class="Statement">'</span> \
+      <span class="Statement">-c</span> <span class="Statement">&quot;</span><span class="Constant">colorscheme base16-</span><span class="PreProc">$colorscheme</span><span class="Statement">&quot;</span> \
+      <span class="Statement">-c</span> <span class="Statement">'</span><span class="Constant">TOhtml</span><span class="Statement">'</span> \
+      <span class="Statement">-c</span> <span class="Statement">'</span><span class="Constant">wqall</span><span class="Statement">'</span> \
+      <span class="PreProc">$0</span> <span class="Statement">&gt;</span> /dev/null <span class="Constant">2</span><span class="Statement">&gt;</span><span class="Statement">&amp;</span><span class="Constant">1</span>
+
+    <span class="Statement">grep</span> <span class="Special">-Pzo</span> <span class="Statement">'</span><span class="Constant">(?s)&lt;style&gt;.*&lt;/style&gt;</span><span class="Statement">'</span> <span class="PreProc">$tmpfile</span> \
+      <span class="Statement">|</span> <span class="Statement">sed</span> <span class="Statement">&quot;</span><span class="Constant">3,14!d;s/body/pre/;s/^/#base16-</span><span class="PreProc">$colorscheme</span><span class="Constant"> /</span><span class="Statement">&quot;</span> \
+      <span class="Statement">&gt;</span> out/<span class="PreProc">$colorscheme</span>.css
+
+    <span class="Statement">rm</span> <span class="Statement">-f</span> <span class="PreProc">$tmpfile</span>
+  <span class="Statement">done</span>
+
+  erb template.erb <span class="Statement">&gt;</span> out/index.html
+<span class="Identifier">}</span>
+
+main
