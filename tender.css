@@ -1,12 +1,12 @@
 #base16-tender pre { white-space: pre-wrap; font-family: monospace; color: #eeeeee; background-color: #282828; }
 #base16-tender pre { font-family: monospace; color: #eeeeee; background-color: #282828; }
 #base16-tender * { font-size: 1em; }
-#base16-tender .String { color: #c9d05c; }
+#base16-tender .String { color: #c9d05c; font-style: italic; }
 #base16-tender .Number { color: #dc9656; }
 #base16-tender .Comment { color: #4c4c4c; font-style: italic; }
 #base16-tender .Special { color: #73cef4; }
 #base16-tender .Identifier { color: #eeeeee; }
-#base16-tender .Statement { color: #f43753; font-weight: bold; }
-#base16-tender .PreProc { color: #ffc24b; }
+#base16-tender .Statement { color: #d3b987; font-weight: bold; }
+#base16-tender .PreProc { color: #73cef4; }
 #base16-tender .Function { color: #b3deef; }
 #base16-tender .Conditional { color: #d3b987; }

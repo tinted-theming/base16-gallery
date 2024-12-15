@@ -1,12 +1,12 @@
 #base16-horizon-terminal-light pre { white-space: pre-wrap; font-family: monospace; color: #403c3d; background-color: #fdf0ed; }
 #base16-horizon-terminal-light pre { font-family: monospace; color: #403c3d; background-color: #fdf0ed; }
 #base16-horizon-terminal-light * { font-size: 1em; }
-#base16-horizon-terminal-light .String { color: #29d398; }
+#base16-horizon-terminal-light .String { color: #29d398; font-style: italic; }
 #base16-horizon-terminal-light .Number { color: #f9cec3; }
 #base16-horizon-terminal-light .Comment { color: #bdb3b1; font-style: italic; }
 #base16-horizon-terminal-light .Special { color: #59e1e3; }
 #base16-horizon-terminal-light .Identifier { color: #403c3d; }
-#base16-horizon-terminal-light .Statement { color: #e95678; font-weight: bold; }
-#base16-horizon-terminal-light .PreProc { color: #fadad1; }
+#base16-horizon-terminal-light .Statement { color: #ee64ac; font-weight: bold; }
+#base16-horizon-terminal-light .PreProc { color: #59e1e3; }
 #base16-horizon-terminal-light .Function { color: #26bbd9; }
 #base16-horizon-terminal-light .Conditional { color: #ee64ac; }

@@ -1,12 +1,12 @@
 #base16-tokyo-city-terminal-dark pre { white-space: pre-wrap; font-family: monospace; color: #d8e2ec; background-color: #171d23; }
 #base16-tokyo-city-terminal-dark pre { font-family: monospace; color: #d8e2ec; background-color: #171d23; }
 #base16-tokyo-city-terminal-dark * { font-size: 1em; }
-#base16-tokyo-city-terminal-dark .String { color: #8bd49c; }
+#base16-tokyo-city-terminal-dark .String { color: #8bd49c; font-style: italic; }
 #base16-tokyo-city-terminal-dark .Number { color: #ff9e64; }
 #base16-tokyo-city-terminal-dark .Comment { color: #526270; font-style: italic; }
 #base16-tokyo-city-terminal-dark .Special { color: #70e1e8; }
 #base16-tokyo-city-terminal-dark .Identifier { color: #d8e2ec; }
-#base16-tokyo-city-terminal-dark .Statement { color: #d95468; font-weight: bold; }
-#base16-tokyo-city-terminal-dark .PreProc { color: #ebbf83; }
+#base16-tokyo-city-terminal-dark .Statement { color: #b62d65; font-weight: bold; }
+#base16-tokyo-city-terminal-dark .PreProc { color: #70e1e8; }
 #base16-tokyo-city-terminal-dark .Function { color: #539afc; }
 #base16-tokyo-city-terminal-dark .Conditional { color: #b62d65; }
