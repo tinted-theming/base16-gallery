@@ -1,0 +1,12 @@
+#base24-catppuccin-frappe pre { white-space: pre-wrap; font-family: monospace; color: #c6d0f5; background-color: #303446; }
+#base24-catppuccin-frappe pre { font-family: monospace; color: #c6d0f5; background-color: #303446; }
+#base24-catppuccin-frappe * { font-size: 1em; }
+#base24-catppuccin-frappe .String { color: #a6d189; font-style: italic; }
+#base24-catppuccin-frappe .Number { color: #ef9f76; }
+#base24-catppuccin-frappe .Comment { color: #51576d; font-style: italic; }
+#base24-catppuccin-frappe .Special { color: #81c8be; }
+#base24-catppuccin-frappe .Identifier { color: #c6d0f5; }
+#base24-catppuccin-frappe .Statement { color: #ca9ee6; font-weight: bold; }
+#base24-catppuccin-frappe .PreProc { color: #81c8be; }
+#base24-catppuccin-frappe .Function { color: #8caaee; }
+#base24-catppuccin-frappe .Conditional { color: #ca9ee6; }

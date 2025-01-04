@@ -1,0 +1,12 @@
+#base24-brogrammer pre { white-space: pre-wrap; font-family: monospace; color: #c1c8d7; background-color: #131313; }
+#base24-brogrammer pre { font-family: monospace; color: #c1c8d7; background-color: #131313; }
+#base24-brogrammer * { font-size: 1em; }
+#base24-brogrammer .String { color: #2cc55d; font-style: italic; }
+#base24-brogrammer .Number { color: #ecb90f; }
+#base24-brogrammer .Comment { color: #343d50; font-style: italic; }
+#base24-brogrammer .Special { color: #0f80d5; }
+#base24-brogrammer .Identifier { color: #c1c8d7; }
+#base24-brogrammer .Statement { color: #4e59b7; font-weight: bold; }
+#base24-brogrammer .PreProc { color: #0f80d5; }
+#base24-brogrammer .Function { color: #2a84d2; }
+#base24-brogrammer .Conditional { color: #4e59b7; }

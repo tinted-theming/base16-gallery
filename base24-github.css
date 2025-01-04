@@ -1,0 +1,12 @@
+#base24-github pre { white-space: pre-wrap; font-family: monospace; color: #d8d8d8; background-color: #f4f4f4; }
+#base24-github pre { font-family: monospace; color: #d8d8d8; background-color: #f4f4f4; }
+#base24-github * { font-size: 1em; }
+#base24-github .String { color: #07962a; font-style: italic; }
+#base24-github .Number { color: #f8eec7; }
+#base24-github .Comment { color: #8c8c8c; font-style: italic; }
+#base24-github .Special { color: #89d1ec; }
+#base24-github .Identifier { color: #d8d8d8; }
+#base24-github .Statement { color: #e94691; font-weight: bold; }
+#base24-github .PreProc { color: #89d1ec; }
+#base24-github .Function { color: #003e8a; }
+#base24-github .Conditional { color: #e94691; }
