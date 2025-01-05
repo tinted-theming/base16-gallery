@@ -1,4 +1,4 @@
-# Titned Gallery 
+# Tinted Gallery
 
 https://tinted-theming.github.io/tinted-gallery
 
