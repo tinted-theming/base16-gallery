@@ -1,12 +1,12 @@
 #base16-tokyo-city-terminal-light pre { white-space: pre-wrap; font-family: monospace; color: #28323a; background-color: #fbfbfd; }
 #base16-tokyo-city-terminal-light pre { font-family: monospace; color: #28323a; background-color: #fbfbfd; }
 #base16-tokyo-city-terminal-light * { font-size: 1em; }
-#base16-tokyo-city-terminal-light .String { color: #33635c; font-style: italic; }
-#base16-tokyo-city-terminal-light .Number { color: #965027; }
-#base16-tokyo-city-terminal-light .Comment { color: #b7c5d3; font-style: italic; }
-#base16-tokyo-city-terminal-light .Special { color: #0f4b6e; }
 #base16-tokyo-city-terminal-light .Identifier { color: #28323a; }
 #base16-tokyo-city-terminal-light .Statement { color: #5a4a78; font-weight: bold; }
 #base16-tokyo-city-terminal-light .PreProc { color: #0f4b6e; }
+#base16-tokyo-city-terminal-light .Operator { color: #0f4b6e; }
+#base16-tokyo-city-terminal-light .Comment { color: #b7c5d3; font-style: italic; }
+#base16-tokyo-city-terminal-light .String { color: #33635c; font-style: italic; }
+#base16-tokyo-city-terminal-light .Number { color: #965027; }
 #base16-tokyo-city-terminal-light .Function { color: #34548a; }
 #base16-tokyo-city-terminal-light .Conditional { color: #5a4a78; }

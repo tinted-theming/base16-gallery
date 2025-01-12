@@ -28,7 +28,7 @@
 <span class="Function">}</span>
 
 <span class="Function">generate_themes() {</span>
-  <span class="Statement">local</span><span class="Identifier"> system</span><span class="Operator">=</span><span class="PreProc">${</span><span class="PreProc">1</span><span class="Operator">:-</span><span class="Operator">&quot;</span><span class="String">base16</span><span class="Operator">&quot;</span><span class="PreProc">}</span>
+  <span class="Statement">local</span> <span class="Identifier">system</span>=<span class="PreProc">${</span><span class="PreProc">1</span><span class="Operator">:-</span><span class="Operator">&quot;</span><span class="String">base16</span><span class="Operator">&quot;</span><span class="PreProc">}</span>
 
   <span class="Identifier">colorschemes</span>=<span class="PreProc">($(</span><span class="Statement">ls</span><span class="Special"> </span><span class="Operator">&quot;</span><span class="String">schemes/</span><span class="PreProc">$system</span><span class="String">/</span><span class="Operator">&quot;</span><span class="Special"> </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">grep</span><span class="Special"> yaml </span><span class="Operator">|</span><span class="Special"> </span><span class="Statement">sed</span><span class="Special"> </span><span class="Operator">'</span><span class="String">s/\..*$//</span><span class="Operator">'</span><span class="PreProc">))</span>
   <span class="Identifier">tmpfile</span>=<span class="Operator">&quot;</span><span class="PreProc">$0</span><span class="String">.html</span><span class="Operator">&quot;</span>
@@ -41,7 +41,7 @@
     <span class="Special">-c</span> <span class="Operator">'</span><span class="String">silent! TOhtml</span><span class="Operator">'</span> \
     <span class="Special">-c</span> <span class="Operator">'</span><span class="String">silent! wqa!</span><span class="Operator">'</span> \
     <span class="PreProc">$0</span> <span class="Operator">&gt;</span> /dev/null <span class="Number">2</span><span class="Operator">&gt;&amp;1</span>
-  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/{flag=1; next} /&lt;\/pre&gt;/{flag=0} flag</span><span class="Operator">&quot;</span> <span class="PreProc">$tmpfile</span> <span class="Operator">&gt;</span> out/shell.html
+  awk <span class="Operator">&quot;</span><span class="String">/&lt;pre id='vimCodeElement'&gt;/{flag=1; next} /&lt;</span><span class="Special">\/</span><span class="String">pre&gt;/{flag=0} flag</span><span class="Operator">&quot;</span> <span class="PreProc">$tmpfile</span> <span class="Operator">&gt;</span> out/shell.html
 
   <span class="Statement">for</span> colorscheme <span class="Statement">in</span> <span class="PreProc">${</span><span class="PreProc">colorschemes</span><span class="PreProc">[</span>@<span class="PreProc">]</span><span class="PreProc">}</span><span class="Operator">;</span> <span class="Conditional">do</span>
     <span class="Statement">echo</span><span class="String"> </span><span class="PreProc">$colorscheme</span>
